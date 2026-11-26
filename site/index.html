@@ -4,169 +4,181 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tikabhairab Rajkulo — Living Heritage Map</title>
-  <meta name="description" content="An interactive field-survey map of the 13 km Tikabhairab Rajkulo, a Licchavi-era hill-fed canal in Lalitpur, Nepal — 95 GPS-surveyed sections, 68 points of interest, and the full historic distributary network.">
+  <meta name="description" content="An interactive field-survey map of the 13 km Tikabhairab Rajkulo, a Licchavi-era hill-fed canal in Lalitpur, Nepal — 95 GPS-surveyed sections, 68 points of interest, and the full historic distributary network. In English and Nepali; survey data free to download (CC BY 4.0).">
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 
   <!-- Open Graph / Twitter -->
   <meta property="og:title" content="Tikabhairab Rajkulo — Living Heritage Map">
   <meta property="og:description" content="Interactive field-survey map of the 13 km Tikabhairab Rajkulo — a Licchavi-era hill-fed canal in Lalitpur, Nepal.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="figures/map_4_1_alignment.png">
+  <meta property="og:image" content="https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/og-image.jpg">
+  <meta property="og:url" content="https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Tikabhairab Rajkulo — Living Heritage Map">
   <meta name="twitter:description" content="13 km · 95 surveyed sections · 68 points of interest · 96 historic branches">
-  <meta name="twitter:image" content="figures/map_4_1_alignment.png">
+  <meta name="twitter:image" content="https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/og-image.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 
 <!-- ── SPLASH ────────────────────────────────────────────── -->
 <section id="splash" role="dialog" aria-labelledby="splash-title">
+  <button type="button" class="lang-toggle splash-lang" data-lang-toggle data-i18n="lang.switch" data-i18n-attr="aria-label=lang.switchAria">नेपाली</button>
   <div class="splash-ornament" aria-hidden="true"></div>
-  <p class="splash-sub">Tikabhairab Rajkulo · Lalitpur, Nepal</p>
-  <h1 class="splash-title" id="splash-title">Living <em>Heritage Map</em> of an Ancient Canal</h1>
-  <p class="splash-desc">
+  <p class="splash-sub" data-i18n="splash.sub">Tikabhairab Rajkulo · Lalitpur, Nepal</p>
+  <h1 class="splash-title" id="splash-title" data-i18n-html="splash.title">Living <em>Heritage Map</em> of an Ancient Canal</h1>
+  <p class="splash-desc" data-i18n-html="splash.desc">
     A 13 km hill-fed canal — documented in Licchavi inscriptions under the name <em>Tilmak</em> — that once
     irrigated the eastern Lalitpur valley. Walked, measured, and photographed across May 2022.
   </p>
   <div class="splash-stats">
-    <div class="stat-item"><span class="stat-num">13</span><span class="stat-label">km canal</span></div>
-    <div class="stat-item"><span class="stat-num">95</span><span class="stat-label">surveyed sections</span></div>
-    <div class="stat-item"><span class="stat-num">68</span><span class="stat-label">points of interest</span></div>
-    <div class="stat-item"><span class="stat-num">163m</span><span class="stat-label">elevation drop</span></div>
+    <div class="stat-item"><span class="stat-num" data-n="13">13</span><span class="stat-label" data-i18n="stat.km">km canal</span></div>
+    <div class="stat-item"><span class="stat-num" data-stat="gps-sections">95</span><span class="stat-label" data-i18n="stat.sections">surveyed sections</span></div>
+    <div class="stat-item"><span class="stat-num" data-stat="pois">68</span><span class="stat-label" data-i18n="stat.pois">points of interest</span></div>
+    <div class="stat-item"><span class="stat-num" data-n="163" data-unit="m">163 m</span><span class="stat-label" data-i18n="stat.drop">elevation drop</span></div>
   </div>
   <div class="splash-actions">
-    <button type="button" id="btn-tour" class="splash-btn primary">Take the tour →</button>
-    <button type="button" id="btn-enter" class="splash-btn">Explore the map</button>
+    <button type="button" id="btn-tour" class="splash-btn primary" data-i18n="splash.tour">Take the tour →</button>
+    <button type="button" id="btn-enter" class="splash-btn" data-i18n="splash.enter">Explore the map</button>
   </div>
 </section>
 
 <!-- ── APP ──────────────────────────────────────────────── -->
 <div id="app" role="application">
 
-  <aside id="sidebar" aria-label="Map controls and information">
+  <aside id="sidebar" aria-label="Map controls and information" data-i18n-attr="aria-label=sidebar.aria">
     <header class="sidebar-header">
-      <div class="sidebar-logo">Tikabhairab Rajkulo</div>
-      <div class="sidebar-title">Heritage Map · Field Survey 2022</div>
+      <div class="sidebar-brand">
+        <div class="sidebar-logo" data-i18n="brand">Tikabhairab Rajkulo</div>
+        <div class="sidebar-title" data-i18n="sidebar.title">Heritage Map · Field Survey 2022</div>
+      </div>
+      <button type="button" class="lang-toggle" data-lang-toggle data-i18n="lang.switch" data-i18n-attr="aria-label=lang.switchAria">नेपाली</button>
     </header>
 
-    <nav class="sidebar-nav" role="tablist" aria-label="Main panels">
-      <button class="nav-tab active" type="button" data-tab="map"      role="tab" aria-selected="true"  aria-controls="panel-map">Map</button>
-      <button class="nav-tab"        type="button" data-tab="index"    role="tab" aria-selected="false" aria-controls="panel-index">Index</button>
-      <button class="nav-tab"        type="button" data-tab="detail"   role="tab" aria-selected="false" aria-controls="panel-detail">Detail</button>
-      <button class="nav-tab"        type="button" data-tab="analysis" role="tab" aria-selected="false" aria-controls="panel-analysis">Analysis</button>
+    <nav class="sidebar-nav" role="tablist" aria-label="Main panels" data-i18n-attr="aria-label=tabs.aria">
+      <button class="nav-tab active" type="button" data-tab="map" id="nav-map"           role="tab" aria-selected="true"  aria-controls="panel-map" data-i18n="tab.map">Map</button>
+      <button class="nav-tab"        type="button" data-tab="index" id="nav-index"       role="tab" aria-selected="false" aria-controls="panel-index" data-i18n="tab.index">Index</button>
+      <button class="nav-tab"        type="button" data-tab="detail" id="nav-detail"     role="tab" aria-selected="false" aria-controls="panel-detail" data-i18n="tab.detail">Detail</button>
+      <button class="nav-tab"        type="button" data-tab="analysis" id="nav-analysis" role="tab" aria-selected="false" aria-controls="panel-analysis" data-i18n="tab.analysis">Analysis</button>
+      <button class="nav-tab"        type="button" data-tab="study" id="nav-study"       role="tab" aria-selected="false" aria-controls="panel-study" data-i18n="tab.study">Study</button>
     </nav>
 
     <!-- ─ MAP PANEL ─────────────────────────────────────── -->
     <div class="panel active" id="panel-map" role="tabpanel" aria-labelledby="nav-map">
 
       <div class="search-wrap">
-        <label for="search" class="flt-label" style="margin:0">Search</label>
+        <label for="search" class="flt-label" style="margin:0" data-i18n="search.label">Search</label>
         <input id="search" class="search-input" type="search"
                placeholder="Section #, tole name, or POI keyword (press /)"
                aria-label="Search sections or POIs"
+               data-i18n-attr="placeholder=search.placeholder,aria-label=search.aria"
                aria-controls="search-results" autocomplete="off">
-        <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+        <div id="search-results" class="search-results" role="listbox" aria-label="Search results" data-i18n-attr="aria-label=search.results"></div>
       </div>
 
       <!-- Filters accordion -->
       <div class="acc" aria-expanded="true">
         <button class="acc-head" type="button" aria-expanded="true">
-          <span>Filters <span class="acc-count" id="filter-stats">…</span></span>
+          <span><span data-i18n="filters">Filters</span> <span class="acc-count" id="filter-stats">…</span></span>
           <span class="acc-chevron" aria-hidden="true"></span>
         </button>
         <div class="acc-body">
 
           <div class="flt-group">
-            <div class="flt-label">Flow type</div>
+            <div class="flt-label" data-i18n="flt.flow">Flow type</div>
             <div class="flt-row">
-              <label><input type="checkbox" class="flt-flow" value="Perennial" checked> Perennial <span class="count">48</span></label>
-              <label><input type="checkbox" class="flt-flow" value="Seasonal"  checked> Seasonal  <span class="count">34</span></label>
-              <label><input type="checkbox" class="flt-flow" value="Other"     checked> Other / unknown <span class="count">13</span></label>
+              <label><input type="checkbox" class="flt-flow" value="Perennial" checked> <span data-i18n="flow.Perennial">Perennial</span> <span class="count" data-flow-count="Perennial"></span></label>
+              <label><input type="checkbox" class="flt-flow" value="Seasonal"  checked> <span data-i18n="flow.Seasonal">Seasonal</span> <span class="count" data-flow-count="Seasonal"></span></label>
+              <label><input type="checkbox" class="flt-flow" value="Other"     checked> <span data-i18n="flow.Other">Other / unknown</span> <span class="count" data-flow-count="Other"></span></label>
             </div>
           </div>
 
           <div class="flt-group">
-            <div class="flt-label">Map features</div>
+            <div class="flt-label" data-i18n="flt.features">Map features</div>
             <div class="flt-row">
-              <label><input type="checkbox" class="flt-feature" value="surveyed" checked> Surveyed sections <span class="count">95</span></label>
-              <label><input type="checkbox" class="flt-feature" value="historic">         Historic branches <span class="count">96</span></label>
-              <label><input type="checkbox" class="flt-feature" value="pois"     checked> Points of interest <span class="count">68</span></label>
-              <label><input type="checkbox" class="flt-feature" value="labels"   checked> Settlement labels</label>
+              <label><input type="checkbox" class="flt-feature" value="surveyed" checked> <span data-i18n="feat.surveyed">Canal sections</span> <span class="count" data-stat="sections"></span></label>
+              <label><input type="checkbox" class="flt-feature" value="historic"> <span data-i18n="feat.historic">Historic branches</span> <span class="count" data-stat="historic"></span></label>
+              <label><input type="checkbox" class="flt-feature" value="pois"     checked> <span data-i18n="feat.pois">Points of interest</span> <span class="count" data-stat="pois"></span></label>
+              <label><input type="checkbox" class="flt-feature" value="labels"   checked> <span data-i18n="feat.labels">Settlement labels</span></label>
             </div>
           </div>
 
           <div class="flt-group">
-            <div class="flt-label">POI categories</div>
+            <div class="flt-label" data-i18n="flt.poi">POI categories</div>
             <div class="flt-row">
-              <label><input type="checkbox" class="flt-poi" value="Contamination"     checked> <span class="dot" style="background:#c0392b"></span> Contamination <span class="count">3</span></label>
-              <label><input type="checkbox" class="flt-poi" value="Cross Drainage"    checked> <span class="dot" style="background:#2a6b8a"></span> Cross Drainage <span class="count">7</span></label>
-              <label><input type="checkbox" class="flt-poi" value="Vulnerable Zone"   checked> <span class="dot" style="background:#d4721a"></span> Vulnerable Zone <span class="count">3</span></label>
-              <label><input type="checkbox" class="flt-poi" value="Encroachment"      checked> <span class="dot" style="background:#333333"></span> Encroachment <span class="count">4</span></label>
-              <label><input type="checkbox" class="flt-poi" value="Hume Pipe"         checked> <span class="dot" style="background:#7c4a1e"></span> Hume Pipe</label>
-              <label><input type="checkbox" class="flt-poi" value="Intake Structure"  checked> <span class="dot" style="background:#1D9E75"></span> Intake Structure <span class="count">2</span></label>
-              <label><input type="checkbox" class="flt-poi" value="Observation Point" checked> <span class="dot" style="background:#2a6b8a"></span> Observation Point <span class="count">49</span></label>
+              <label><input type="checkbox" class="flt-poi" value="Contamination"     checked> <span class="dot" style="background:#c0392b"></span> <span data-i18n="poi.Contamination">Contamination</span> <span class="count" data-poi-count="Contamination"></span></label>
+              <label><input type="checkbox" class="flt-poi" value="Cross Drainage"    checked> <span class="dot" style="background:#2a6b8a"></span> <span data-i18n="poi.Cross Drainage">Cross Drainage</span> <span class="count" data-poi-count="Cross Drainage"></span></label>
+              <label><input type="checkbox" class="flt-poi" value="Vulnerable Zone"   checked> <span class="dot" style="background:#d4721a"></span> <span data-i18n="poi.Vulnerable Zone">Vulnerable Zone</span> <span class="count" data-poi-count="Vulnerable Zone"></span></label>
+              <label><input type="checkbox" class="flt-poi" value="Encroachment"      checked> <span class="dot" style="background:#333333"></span> <span data-i18n="poi.Encroachment">Encroachment</span> <span class="count" data-poi-count="Encroachment"></span></label>
+              <label><input type="checkbox" class="flt-poi" value="Hume Pipe"         checked> <span class="dot" style="background:#7c4a1e"></span> <span data-i18n="poi.Hume Pipe">Hume Pipe</span> <span class="count" data-poi-count="Hume Pipe"></span></label>
+              <label><input type="checkbox" class="flt-poi" value="Intake Structure"  checked> <span class="dot" style="background:#1D9E75"></span> <span data-i18n="poi.Intake Structure">Intake Structure</span> <span class="count" data-poi-count="Intake Structure"></span></label>
+              <label><input type="checkbox" class="flt-poi" value="Observation Point" checked> <span class="dot" style="background:#2a6b8a"></span> <span data-i18n="poi.Observation Point">Observation Point</span> <span class="count" data-poi-count="Observation Point"></span></label>
             </div>
           </div>
 
           <div class="flt-actions">
-            <button class="btn" type="button" id="btn-reset">Reset all</button>
-            <button class="btn primary" type="button" id="btn-fit">Zoom to visible</button>
+            <button class="btn" type="button" id="btn-reset" data-i18n="btn.reset">Reset all</button>
+            <button class="btn primary" type="button" id="btn-fit" data-i18n="btn.fit">Zoom to visible</button>
           </div>
         </div>
       </div>
 
-      <!-- Condition legend = clickable chips -->
+      <!-- Condition legend = clickable chips (labels and descriptions filled by app.js) -->
       <div class="acc" aria-expanded="true">
         <button class="acc-head" type="button" aria-expanded="true">
-          <span>Canal condition <span class="acc-count">click to filter</span></span>
+          <span><span data-i18n="cond.title">Canal condition</span> <span class="acc-count" data-i18n="cond.hint">click to filter</span></span>
           <span class="acc-chevron" aria-hidden="true"></span>
         </button>
         <div class="acc-body">
           <div class="flt-row">
             <label data-cond-chip="Good" aria-pressed="true" role="button" tabindex="0">
-              <span class="line" style="background:#1D9E75"></span> Good — clean water, no silting
+              <span class="line" style="background:#1D9E75"></span> <span data-cond-label="Good">Good — no silting or sewage recorded</span>
               <span class="count" data-cond-count="Good"></span></label>
             <label data-cond-chip="Fair" aria-pressed="true" role="button" tabindex="0">
-              <span class="line" style="background:#d4a017"></span> Fair — minor issues
+              <span class="line" style="background:#d4a017"></span> <span data-cond-label="Fair">Fair — silting, no sewage</span>
               <span class="count" data-cond-count="Fair"></span></label>
             <label data-cond-chip="Poor" aria-pressed="true" role="button" tabindex="0">
-              <span class="line" style="background:#d4721a"></span> Poor — silting or contamination
+              <span class="line" style="background:#d4721a"></span> <span data-cond-label="Poor">Poor — sewage or waste, no silting</span>
               <span class="count" data-cond-count="Poor"></span></label>
             <label data-cond-chip="Critical" aria-pressed="true" role="button" tabindex="0">
-              <span class="line" style="background:#c0392b"></span> Critical — severe degradation
+              <span class="line" style="background:#c0392b"></span> <span data-cond-label="Critical">Critical — sewage or waste, and silting</span>
               <span class="count" data-cond-count="Critical"></span></label>
             <label data-cond-chip="Underground" aria-pressed="true" role="button" tabindex="0">
-              <span class="line" style="background:#7c4a1e"></span> Underground — buried / piped
+              <span class="line" style="background:#7c4a1e"></span> <span data-cond-label="Underground">Underground — buried / piped</span>
               <span class="count" data-cond-count="Underground"></span></label>
             <label data-cond-chip="Lost" aria-pressed="true" role="button" tabindex="0">
-              <span class="line" style="background:#333"></span> Lost — encroached
+              <span class="line" style="background:#333"></span> <span data-cond-label="Lost">Lost — canal not seen</span>
               <span class="count" data-cond-count="Lost"></span></label>
+            <label data-cond-chip="No data" aria-pressed="true" role="button" tabindex="0">
+              <span class="line line-dashed"></span> <span data-cond-label="No data">No data — not walked / not recorded</span>
+              <span class="count" data-cond-count="No data"></span></label>
           </div>
         </div>
       </div>
 
       <div class="info-card">
-        <p>Canal runs from <strong>Tikabhairav intake</strong> (1,477 m ASL) to <strong>Lagankhel</strong> (1,314 m ASL) — a 163 m descent across the 13 km main alignment through Chapagaon, Pyangaon, Thecho, Sunakothi, and Dholahiti.</p>
+        <p data-i18n-html="info.route">Canal runs from <strong>Tikabhairav intake</strong> (1,477 m ASL) to <strong>Lagankhel</strong> (1,314 m ASL) — a 163 m descent across the 13 km main alignment through Chapagaon, Pyangaon, Thecho, Sunakothi, and Dholahiti.</p>
       </div>
-      <div class="info-card" style="font-size:0.75rem">
+      <div class="info-card" data-i18n-html="info.data">Free to reuse: <a href="#downloads" data-go-downloads>download the survey data</a> (CC BY 4.0).</div>
+      <div class="info-card" style="font-size:0.75rem" data-i18n-html="info.keys">
         <strong>Keyboard:</strong> <code>/</code> search · <code>[ ]</code> prev/next section · <code>Esc</code> close tour/lightbox
       </div>
     </div>
 
     <!-- ─ INDEX PANEL ───────────────────────────────────── -->
     <div class="panel" id="panel-index" role="tabpanel" aria-labelledby="nav-index">
-      <div class="info-card" style="margin-bottom:0.6rem">
-        Browse all 95 GPS-surveyed sections. Click any row to fly to it on the map.
+      <div class="info-card" style="margin-bottom:0.6rem" data-i18n-html="index.intro">
+        Browse all 107 canal sections (95 GPS-walked). Click any row to fly to it on the map.
       </div>
-      <div class="index-sort" role="group" aria-label="Sort sections">
-        <button class="btn" type="button" data-sort="pdf_n"     aria-pressed="true">PDF #</button>
-        <button class="btn" type="button" data-sort="chainage"  aria-pressed="false">Chainage</button>
-        <button class="btn" type="button" data-sort="condition" aria-pressed="false">Condition</button>
+      <div class="index-sort" role="group" aria-label="Sort sections" data-i18n-attr="aria-label=index.sortAria">
+        <button class="btn" type="button" data-sort="pdf_n"     aria-pressed="true" data-i18n="sort.pdf">PDF #</button>
+        <button class="btn" type="button" data-sort="chainage"  aria-pressed="false" data-i18n="sort.chainage">Chainage</button>
+        <button class="btn" type="button" data-sort="condition" aria-pressed="false" data-i18n="sort.condition">Condition</button>
       </div>
       <div class="index-list" id="index-list" role="list"></div>
     </div>
@@ -174,7 +186,7 @@
     <!-- ─ DETAIL PANEL ──────────────────────────────────── -->
     <div class="panel" id="panel-detail" role="tabpanel" aria-labelledby="nav-detail">
       <div id="detail-content">
-        <div class="no-notes" style="padding:1rem 0">
+        <div class="no-notes" style="padding:1rem 0" data-i18n="detail.empty">
           Click a canal section or point of interest on the map to view its details.
         </div>
       </div>
@@ -182,53 +194,70 @@
 
     <!-- ─ ANALYSIS PANEL ────────────────────────────────── -->
     <div class="panel" id="panel-analysis" role="tabpanel" aria-labelledby="nav-analysis">
-      <h2 class="analysis-title">Research findings</h2>
-      <p class="analysis-sub">Key data from the May 2022 GPS field survey: 95 sections covering 10.67 km of GPS-walked length (13.16 km AutoCAD-refined main alignment).</p>
+      <h2 class="analysis-title" data-i18n="analysis.title">Research findings</h2>
+      <p class="analysis-sub" data-i18n-html="analysis.sub"></p>
 
-      <div class="hydraulic-box">
-        <div class="hb-title">The central hydraulic finding</div>
-        <div>Actual bed slope vs Lacey self-cleansing slope:</div>
-        <div class="hb-eq">S_actual = 0.01529 (1 in 65)<br>S_Lacey  = 0.000440 (1 in 2,275)</div>
-        <div class="hb-result">The canal is 34.8× steeper than needed for self-cleansing flow.</div>
-        <div style="margin-top:0.6rem;opacity:0.8;font-size:0.82rem">Silting is not a design failure — it is caused entirely by intake blockage, encroachment, and waste dumping. The canal's hydraulic design is sound.</div>
-      </div>
+      <h3 class="detail-section-title" data-i18n="strip.title">Condition along the canal</h3>
+      <p class="analysis-sub" style="margin-top:0" data-i18n="strip.explain">Each block is one survey section, placed by its chainage from the intake (left) to Lagankhel (right). Red ticks mark sections where sewage or waste dumping was recorded. Click a block to open that section.</p>
+      <div id="condition-strip" class="condition-strip"></div>
+      <div id="condition-summary" class="condition-summary"></div>
 
-      <h3 class="detail-section-title">Key findings</h3>
+      <h3 class="detail-section-title" data-i18n="findings.title">What the survey data show</h3>
+      <div id="findings"></div>
+
+      <h3 class="detail-section-title" data-i18n="heritage.title">Heritage</h3>
       <div class="finding">
         <div class="finding-icon" aria-hidden="true">🏛️</div>
-        <div class="finding-text">Licchavi inscriptions name the canal <strong>'Tilmak'</strong> — a non-Sanskritic word anomalous in Licchavi-era records. <strong>Pre-Licchavi (Kirat) origin</strong> is one of three working hypotheses; resolution requires further epigraphic and archaeological work.</div>
+        <div class="finding-text" data-i18n-html="f.tilmak">Licchavi inscriptions name the canal <strong>‘Tilmak’</strong> — a non-Sanskritic word that is unusual in Licchavi-era records. A <strong>pre-Licchavi (Kirat) origin</strong> is one of three working hypotheses; settling it needs further epigraphic and archaeological work.</div>
       </div>
-      <div class="finding">
-        <div class="finding-icon" aria-hidden="true">💧</div>
-        <div class="finding-text">Perennial clean flow is limited to the upper <strong>3,432 m</strong>. Beyond chainage 3+124 m, flow becomes contaminated by sewage inflow.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-icon" aria-hidden="true">⚙️</div>
-        <div class="finding-text">The canal's slope is <strong>34.8× steeper</strong> than Lacey's self-cleansing threshold. The design is hydraulically sound — deterioration is entirely human-caused.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-icon" aria-hidden="true">🚧</div>
-        <div class="finding-text"><strong>6 sewage inflow points</strong> identified at chainages 0+524 m, 3+254 m, 3+384 m, 4+973 m, 6+220 m, and 9+412 m.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-icon" aria-hidden="true">🗺️</div>
-        <div class="finding-text">Roads cover <strong>3,183 m</strong> of the canal alignment. The 5–7 km band is the most critical zone for restoration intervention.</div>
-      </div>
+
+      <section id="downloads" class="downloads" aria-labelledby="dl-title">
+        <h3 class="detail-section-title" id="dl-title" data-i18n="dl.title">Open data</h3>
+        <p class="dl-intro" data-i18n-html="dl.intro">The survey data and photographs are free to reuse under CC BY 4.0 — please credit the survey. The site’s code is MIT-licensed.</p>
+        <ul class="dl-list">
+          <li><a class="dl-link primary" href="downloads/rajkulo_open_data.zip" download><span data-i18n="dl.zip">All data (.zip)</span> <span class="dl-size" data-dl-size="downloads/rajkulo_open_data.zip"></span></a></li>
+          <li><a class="dl-link" href="downloads/rajkulo_sections.geojson" download data-i18n="dl.secGeo">Sections — GeoJSON</a></li>
+          <li><a class="dl-link" href="downloads/rajkulo_sections.csv" download data-i18n="dl.secCsv">Sections — CSV (Excel)</a></li>
+          <li><a class="dl-link" href="downloads/rajkulo_points_of_interest.geojson" download data-i18n="dl.poiGeo">Points of interest — GeoJSON</a></li>
+          <li><a class="dl-link" href="downloads/rajkulo_points_of_interest.csv" download data-i18n="dl.poiCsv">Points of interest — CSV (Excel)</a></li>
+          <li><a class="dl-link" href="downloads/rajkulo_historic_branches.geojson" download data-i18n="dl.hist">Historic branches — GeoJSON</a></li>
+          <li><a class="dl-link" href="downloads/DATA_README.txt" target="_blank" rel="noopener" data-i18n="dl.readme">Field guide and citation (.txt)</a></li>
+        </ul>
+        <div class="dl-cite">
+          <div class="dg-label" data-i18n="dl.cite">How to cite</div>
+          <p>Joshi, H. R. (2022). <em>Tikabhairab Rajkulo field survey, May 2022</em> [Data set]. Living Heritage Map of the Tikabhairab Rajkulo. https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/</p>
+        </div>
+        <p class="dl-note" data-i18n="dl.note">Field notes and place labels are reproduced in English, as the surveyors recorded them.</p>
+      </section>
+    </div>
+
+    <!-- ─ STUDY PANEL: the report's main points and key diagrams ─ -->
+    <div class="panel" id="panel-study" role="tabpanel" aria-labelledby="nav-study">
+      <h2 class="analysis-title" data-i18n="study.title">The study at a glance</h2>
+      <p class="analysis-sub" data-i18n-html="study.sub"></p>
+      <a class="dl-link primary study-report" href="downloads/Tikabhairab_Rajkulo_Report_v2.pdf" target="_blank" rel="noopener"><span data-i18n="study.pdf">Read the full report (PDF)</span> <span class="dl-size" data-dl-size="downloads/Tikabhairab_Rajkulo_Report_v2.pdf"></span></a>
+
+      <h3 class="detail-section-title" data-i18n="study.pointsTitle">Main points</h3>
+      <ol id="study-points" class="study-points"></ol>
+
+      <h3 class="detail-section-title" data-i18n="study.figsTitle">Key diagrams</h3>
+      <p class="analysis-sub" style="margin-top:0" data-i18n="study.figsHint">Tap a diagram to see it full size.</p>
+      <div id="study-figures" class="study-figures"></div>
     </div>
   </aside>
 
-  <main id="map" aria-label="Interactive map of the Tikabhairab Rajkulo canal"></main>
+  <main id="map" aria-label="Interactive map of the Tikabhairab Rajkulo canal" data-i18n-attr="aria-label=map.aria"></main>
 
-  <div class="map-controls" role="toolbar" aria-label="Basemap selector">
-    <button class="map-btn active" type="button" data-basemap="satellite">Satellite</button>
-    <button class="map-btn"        type="button" data-basemap="street">Street</button>
+  <div class="map-controls" role="toolbar" aria-label="Basemap selector" data-i18n-attr="aria-label=basemap.aria">
+    <button class="map-btn active" type="button" data-basemap="satellite" data-i18n="basemap.satellite">Satellite</button>
+    <button class="map-btn"        type="button" data-basemap="street" data-i18n="basemap.street">Street</button>
   </div>
 
 </div>
 
 <!-- ── TOUR OVERLAY ─────────────────────────────────────── -->
 <aside id="tour" role="dialog" aria-modal="false" aria-labelledby="tour-title">
-  <button type="button" class="tour-btn close" id="tour-close" aria-label="Close tour">✕</button>
+  <button type="button" class="tour-btn close" id="tour-close" aria-label="Close tour" data-i18n-attr="aria-label=tour.close">✕</button>
   <div class="tour-progress" id="tour-progress" aria-hidden="true"></div>
   <div class="tour-header">
     <div class="tour-stop-num" id="tour-num">Stop 1 of 10</div>
@@ -236,14 +265,15 @@
   <h2 class="tour-title" id="tour-title"></h2>
   <p class="tour-body" id="tour-body"></p>
   <div class="tour-actions">
-    <button class="tour-btn" type="button" id="tour-prev">← Previous</button>
+    <button class="tour-btn" type="button" id="tour-prev" data-i18n="tour.prev">← Previous</button>
     <button class="tour-btn primary" type="button" id="tour-next">Next →</button>
-    <button class="tour-btn ghost" type="button" id="tour-skip" onclick="document.getElementById('tour-close').click()">Skip tour</button>
+    <button class="tour-btn ghost" type="button" id="tour-skip" data-i18n="tour.skip">Skip tour</button>
   </div>
 </aside>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="data.js?v=3"></script>
-<script src="app.js?v=3"></script>
+<script src="data.js?v=5"></script>
+<script src="i18n.js?v=6"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>
