@@ -138,7 +138,7 @@ The study has six objectives:
 
 ### 1.5 Scope and study area
 
-The study covers the main alignment of Tikabhairab Rajkulo from intake to terminus, together with the parallel branches recorded at about 8.1 km (sections 92–93) and an alternative lower route (sections 99–102, ending at Chainage 11+590.6 m), surveyed for evaluation as alternative routes. Administratively, the alignment crosses two jurisdictions — Godavari Municipality in the upper and middle reaches and Lalitpur Metropolitan City in the lower urban reaches — a fact whose implications for restoration governance are taken up in Chapter 9.
+The study covers the main alignment of Tikabhairab Rajkulo from intake to terminus, together with the parallel branches recorded at about 8.1 km (sections 92–93) and an alternative lower route (sections 99–102, leaving the main line at 9+650 m and ending at Chainage 11+639.8 m), surveyed for evaluation as alternative routes. Administratively, the alignment crosses two jurisdictions — Godavari Municipality in the upper and middle reaches and Lalitpur Metropolitan City in the lower urban reaches — a fact whose implications for restoration governance are taken up in Chapter 9.
 
 The study explicitly *excludes* the following, which are identified as priorities for follow-up work:
 
@@ -208,7 +208,7 @@ The practical consequence — taken up in Chapter 9 — is that any restoration 
 
 The study combines two methods: a structured field survey of the canal's full alignment, conducted in May 2022, and a desktop analysis of the field-collected data, including a data summary, priority scoring and risk framing. The two methods are not sequential but iterative: early analysis informed mid-survey refinements to data capture, and final-stage analyses (priority matrix, risk framework) drew on both field observation and structured re-examination of the survey dataset.
 
-The field survey adopts a section-based unit of analysis. Each surveyed section is a contiguous segment of canal with uniform attributes (lining, geometry, flow regime, water quality category, silting status). Section boundaries are drawn where any of these attributes change. The survey dataset holds **107 sections**: 95 walked and recorded with GPS, and 12 known only from the CAD drawings, which were not walked. The sections cover the main line from the intake to Lagankhel, the parallel branches at about 8.1 km and the alternative lower route ending at 11+590.6 m.
+The field survey adopts a section-based unit of analysis. Each surveyed section is a contiguous segment of canal with uniform attributes (lining, geometry, flow regime, water quality category, silting status). Section boundaries are drawn where any of these attributes change. The survey dataset holds **107 sections**: 95 walked and recorded with GPS, and 12 known only from the CAD drawings, which were not walked. The sections cover the main line from the intake to Lagankhel, the parallel branches at about 8.1 km and the alternative lower route ending at 11+639.8 m.
 
 A parallel record of points of interest (POIs) was kept for discrete features not suited to section-based representation. A total of **68 POIs** were recorded with GPS coordinates, photographs and supplementary observations: 49 observation points, 7 cross-drainage points, 4 encroachment sites, 3 contamination points, 3 vulnerable zones and 2 intake structures (weirs).
 
@@ -230,9 +230,9 @@ The horizontal accuracy of consumer-grade GPS receivers under partial canopy cov
 
 Four length figures appear in this report and must be distinguished:
 
-- **Main-line chainage: 11,773.3 m.** The distance along the main line from the intake to the Lagankhel terminus. Chainage is recorded at the end of each section; the alternative lower route ends at 11,590.6 m.
+- **Main-line chainage: 11,773.3 m.** The distance along the main line from the intake to the Lagankhel terminus. Chainage is recorded at the end of each section; the alternative lower route ends at 11,639.8 m.
 - **Walked length: 9,994.0 m.** The sum of the lengths of the 95 walked sections, including the parallel branches. Percentages of "walked length" in this report are of this figure.
-- **All 107 sections: 13,232.7 m.** The walked sections plus the 12 CAD-only sections (3,238.7 m), which were not walked: one between 3+124 and 3+441 m, and the rest beyond 9+650 m.
+- **All 107 sections: 14,329.6 m.** The walked sections plus the 12 CAD-only sections (4,335.6 m), which were not walked: one between 3+124 and 3+441 m, and the rest beyond 9+650 m. The longest of them, section 99 (1,659.6 m), is an underground hume pipe; its line is drawn along Kanti Lokpath, the road it runs beneath, and its length is measured along that line.
 - **CAD alignment: 13,158.2 m.** The length of the alignment in the AutoCAD drawings prepared for this study, which include stretches inferred from satellite imagery and some branch loops. It is quoted for reference only.
 
 ### 3.5 Data processing
@@ -282,7 +282,7 @@ Digital tools used for data collection, processing, and analysis:
 The following limitations are identified and should be borne in mind when interpreting the report's findings:
 
 1. **No level survey.** Bed slope was not measured, so this report draws no hydraulic conclusions; a level or total-station survey of the canal bed is needed (§12.1).
-2. **Unwalked and hidden stretches.** The 12 CAD-only sections (3.24 km) were not walked: one between 3+124 and 3+441 m and the rest beyond 9+650 m. In a further 9 walked sections (1.73 km) the canal could not be seen. Nothing is recorded for these stretches beyond their position.
+2. **Unwalked and hidden stretches.** The 12 CAD-only sections (4.34 km) were not walked: one between 3+124 and 3+441 m and the rest beyond 9+650 m. In a further 9 walked sections (1.73 km) the canal could not be seen. Nothing is recorded for these stretches beyond their position.
 3. **Heavily silted sections.** In sections where silt deposits and overgrown vegetation prevented physical measurement, dimensions were estimated or omitted; the section attributes for these reaches are less reliable than for clean reaches.
 4. **Inconsistent original lining material.** Partial reconstruction of the canal over different historical periods means that the original construction material is not consistently identifiable along the alignment; current material (as observed in 2022) is recorded but does not always correspond to original.
 5. **One-sided lining variation.** Twelve field notes record sections lined on one side only (typically against a natural rock face), with dimensions varying along the same section. Where this is the case, the recorded dimensions reflect the dominant configuration and may not describe the section fully.
@@ -308,7 +308,7 @@ The Tikabhairab Rajkulo originates at the Tikabhairav intake structure (Chainage
 - **Dholahiti** (7–9 km) — peri-urban; the canal is underground and not seen for 488 m (section 90, 7+646–8+134 m).
 - **Lagankhel** (9–12 km) — urban; not walked beyond 9+650 m. The CAD drawings carry the line to the terminus at or near Saptapatal Pokhari.
 
-A short alternative lower route ends at Naricha (Chainage 11+590.6 m).
+An alternative lower route leaves the main line at the end of section 95 (9+650 m) and ends at Naricha (Chainage 11+639.8 m). Its first section, 99, runs underground in hume pipe beneath Kanti Lokpath for 1.66 km.
 
 Chapagaon, Thecho and Sunakothi are historic settlements along the canal, and canal and settlements have long depended on each other: the communities maintained the canal, and it supplied their fields, drinking water, ponds and hiti. Whether the settlements grew up around the canal, or the canal was dug to serve settlements already there, remains an open question that the epigraphic and archaeological work proposed in §12.2 could help resolve.
 
@@ -324,7 +324,7 @@ The distribution of canal cross-sectional geometry across the 95 walked sections
 | Circular (hume pipe) | 7 | 1,345.6 | 13.5 % |
 | Not recorded (including canal not seen) | 12 | 2,004.3 | 20.1 % |
 | **Total walked** | **95** | **9,994.0** | **100.0 %** |
-| Not walked (CAD only) | 12 | 3,238.7 | — |
+| Not walked (CAD only) | 12 | 4,335.6 | — |
 
 ***Table 4.1 — Canal cross-sectional geometry.***
 
@@ -387,7 +387,7 @@ The survey records the canal as not seen, or as running underground or under a r
 
 ***Table 4.3 — Sections recorded as not seen, underground or under a road.***
 
-Roads over the canal are recorded at sections 65 and 67 (4+227–4+781 m), and by two Encroachment POIs: POI 26, "canal below road", near 3+441 m, and POI 10, two hume pipes below a road, near 2+108 m. Beyond these, 3.24 km was not walked at all: 317 m between 3+124 and 3+441 m, and the rest beyond 9+650 m.
+Roads over the canal are recorded at sections 65 and 67 (4+227–4+781 m), and by two Encroachment POIs: POI 26, "canal below road", near 3+441 m, and POI 10, two hume pipes below a road, near 2+108 m. Beyond these, 4.34 km was not walked at all: 317 m between 3+124 and 3+441 m, and the rest beyond 9+650 m.
 
 Field notes also record active building pressure on the corridor, all between 2.5 and 7.4 km:
 
@@ -401,7 +401,7 @@ The four length figures reported in §3.4 measure different things:
 
 - **Main-line chainage (11,773.3 m)** = distance from the intake to Lagankhel along the main line only.
 - **Walked length (9,994.0 m)** = the 95 walked sections, including the parallel branches.
-- **All sections (13,232.7 m)** = walked length plus the 3,238.7 m of CAD-only sections. It exceeds the main-line chainage by 1,459.4 m: the parallel branches and the alternative lower route.
+- **All sections (14,329.6 m)** = walked length plus the 4,335.6 m of CAD-only sections. It exceeds the main-line chainage by 2,556.3 m: the parallel branches and the alternative lower route.
 - **CAD alignment (13,158.2 m)** = the AutoCAD drawings' total, which also includes branch loops. It is close to, but not drawn from, the section dataset.
 
 ---
@@ -531,7 +531,7 @@ Eight of the nine sections recorded without silting lie between 6.5 and 9.0 km, 
 
 ### 6.5 Where the canal disappears
 
-The canal could not be seen in 9 walked sections, 1.73 km in total. Eight of them (1.69 km) lie between 3.6 and 8.4 km, the stretch where the canal enters peri-urban and urban land. Ten field notes describe the canal running underground or under a road (Table 4.3). Together with the 3.24 km not walked at all, these hidden stretches set the scope of any reconstruction work (Phase 3, §10.4).
+The canal could not be seen in 9 walked sections, 1.73 km in total. Eight of them (1.69 km) lie between 3.6 and 8.4 km, the stretch where the canal enters peri-urban and urban land. Ten field notes describe the canal running underground or under a road (Table 4.3). Together with the 4.34 km not walked at all, these hidden stretches set the scope of any reconstruction work (Phase 3, §10.4).
 
 ### 6.6 Building pressure on the corridor
 
@@ -548,8 +548,8 @@ Each section's condition class (§3.5) summarises its flow, water quality, silti
 | Poor | Sewage or waste, no silting | 8 | 1.44 |
 | Critical | Sewage or waste, and silting | 22 | 2.11 |
 | Lost | Canal not seen | 9 | 1.73 |
-| No data | Nothing recorded (includes the 12 CAD-only sections) | 14 | 3.38 |
-| **Total** | | **107** | **13.23** |
+| No data | Nothing recorded (includes the 12 CAD-only sections) | 14 | 4.48 |
+| **Total** | | **107** | **14.33** |
 
 ***Table 6.3 — Condition class by section and length.***
 
@@ -1046,7 +1046,7 @@ Every headline figure in this report comes from the survey dataset published wit
 | Canal not seen | 9 sections, 1.73 km; 8 (1.69 km) between 3.6 and 8.4 km | Sections recorded as canal not seen |
 | Underground notes | 10 sections | Field notes mentioning underground |
 | Condition (sections) | Good 9, Fair 45, Poor 8, Critical 22, Lost 9, No data 14 | Rules in §3.5 |
-| Condition (length) | 1.72, 2.85, 1.44, 2.11, 1.73, 3.38 km | As above, by section length |
+| Condition (length) | 1.72, 2.85, 1.44, 2.11, 1.73, 4.48 km | As above, by section length |
 | Priority bands | Critical 4–6 km, 7–8 km (and 9–10 km, one section) | Rules in §3.6; Table 8.1 |
 
 ***Table D.1 — Derivation of the headline figures.***
@@ -1097,7 +1097,7 @@ To establish per-section bed slope with engineering-grade vertical accuracy; to 
 
 ### F.4 Estimated effort
 
-Two-person survey crew, 3–4 weeks of field work plus 2 weeks of data processing and deliverable preparation. The underground and road-covered stretches (Table 4.3) and the 3.24 km not walked in this survey may require additional time depending on access arrangements with the relevant road authorities.
+Two-person survey crew, 3–4 weeks of field work plus 2 weeks of data processing and deliverable preparation. The underground and road-covered stretches (Table 4.3) and the 4.34 km not walked in this survey may require additional time depending on access arrangements with the relevant road authorities.
 
 ---
 
