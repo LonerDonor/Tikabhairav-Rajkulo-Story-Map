@@ -1,8 +1,9 @@
 # --- Original full-resolution survey photos (~1.5 GB) ---
 # These are hosted externally (Cloudinary / GitHub Releases), NOT in git.
-# The 800px thumbnails ARE committed so galleries work.
+# The web sizes ARE committed: thumbs/ (400 px, galleries) and large/ (800 px, lightbox).
 site/photos/*
 !site/photos/thumbs/
+!site/photos/large/
 
 # --- Python ---
 __pycache__/
