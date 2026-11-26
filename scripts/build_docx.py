@@ -23,9 +23,12 @@ FIGURES_DIR = RESEARCH / "figures"
 
 # Map figure/map references in the markdown to PNG filenames in figures/
 FIGURE_FILES = {
+    ("FIGURE", "2.1"):  "fig_2_1_system_schematic.png",
+    ("FIGURE", "4.1"):  "fig_4_1_intake_schematic.png",
     ("FIGURE", "5.1"):  "fig_5_1_flow_regime.png",
-    ("FIGURE", "6.1"):  "fig_6_1_elevation_profile.png",
-    ("FIGURE", "6.2"):  "fig_6_2_velocity_vc.png",
+    ("FIGURE", "6.1"):  "fig_6_1_survey_attributes.png",     # from scripts/build_figures.py
+    ("FIGURE", "9.1"):  "fig_9_1_stakeholders.png",
+    ("FIGURE", "10.1"): "fig_10_1_phasing.png",
     ("MAP",    "4.1"):  "map_4_1_alignment.png",
     ("MAP",    "5.1"):  "map_5_1_contamination.png",
     ("MAP",    "8.1"):  "map_8_1_priority.png",
