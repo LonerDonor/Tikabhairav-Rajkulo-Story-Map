@@ -1,0 +1,1238 @@
+{
+ "type": "FeatureCollection",
+ "name": "rajkulo_points_of_interest",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+ "attribution": "Joshi, H. R. (2022). Tikabhairab Rajkulo field survey, May 2022 [Data set]. Living Heritage Map of the Tikabhairab Rajkulo. https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 1,
+    "category": "Contamination",
+    "comment": "outflow",
+    "lon": 85.31475757,
+    "lat": 27.57478011,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_115319_1897927685049494105.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31475757,
+     27.57478011
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 2,
+    "category": "Cross Drainage",
+    "comment": "cross drain",
+    "lon": 85.31469186124733,
+    "lat": 27.574832428255036,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_115603_1955589347698293573.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_115613_5367462054797907226.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31469186124733,
+     27.574832428255036
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 3,
+    "category": "Encroachment",
+    "comment": "road section",
+    "lon": 85.31390239011515,
+    "lat": 27.575323504892037,
+    "photos": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31390239011515,
+     27.575323504892037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 4,
+    "category": "Cross Drainage",
+    "comment": "drain 1",
+    "lon": 85.31340605457416,
+    "lat": 27.57577410401824,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_125427_7501081000136934100.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31340605457416,
+     27.57577410401824
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 5,
+    "category": "Vulnerable Zone",
+    "comment": "vulnurable point. Land slide prone",
+    "lon": 85.31249576119102,
+    "lat": 27.577505441603755,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_131313_5347266297308258921.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_131321_2501332465361871090.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31249576119102,
+     27.577505441603755
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 6,
+    "category": "Cross Drainage",
+    "comment": "cross drainage structure",
+    "lon": 85.31187696307214,
+    "lat": 27.578398671046973,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_131824_1390966702344190717.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31187696307214,
+     27.578398671046973
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 7,
+    "category": "Cross Drainage",
+    "comment": "Cross drain structure",
+    "lon": 85.31172655801649,
+    "lat": 27.579734635090908,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_132747_4687446334597576413.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_132753_3175007769715521581.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31172655801649,
+     27.579734635090908
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 8,
+    "category": "Cross Drainage",
+    "comment": "Cross drainage",
+    "lon": 85.31205887414562,
+    "lat": 27.583035994985803,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_141111_1829564863637310459.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31205887414562,
+     27.583035994985803
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 9,
+    "category": "Cross Drainage",
+    "comment": "Cross drainage",
+    "lon": 85.31233872205308,
+    "lat": 27.58516021768747,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220504_143012_6686455124075884118.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31233872205308,
+     27.58516021768747
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 10,
+    "category": "Encroachment",
+    "comment": "2 hume pipes of dia of 26 ft beowbroad",
+    "lon": 85.31280853003699,
+    "lat": 27.586833939151695,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_123904_6811776793494675829.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31280853003699,
+     27.586833939151695
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 11,
+    "category": "Observation Point",
+    "comment": "Outlet",
+    "lon": 85.3152995725322,
+    "lat": 27.587863523945114,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_134311_5770024886403107443.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_134353_3655598172132987966.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.3152995725322,
+     27.587863523945114
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 12,
+    "category": "Observation Point",
+    "comment": "Outlet currently no discharge.",
+    "lon": 85.3169040151148,
+    "lat": 27.58882794159403,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_140629_7782878941194238182.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.3169040151148,
+     27.58882794159403
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 13,
+    "category": "Observation Point",
+    "comment": "outlet",
+    "lon": 85.31709744169987,
+    "lat": 27.589157309228654,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_140859_1850598313564903673.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31709744169987,
+     27.589157309228654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 14,
+    "category": "Observation Point",
+    "comment": "Outlet",
+    "lon": 85.31743722200129,
+    "lat": 27.589504277186403,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_141306_6918009633648945167.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31743722200129,
+     27.589504277186403
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 15,
+    "category": "Observation Point",
+    "comment": "outlet",
+    "lon": 85.31766783460407,
+    "lat": 27.58963016815813,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_141516_3583774787036844488.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31766783460407,
+     27.58963016815813
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 16,
+    "category": "Observation Point",
+    "comment": "Outlet",
+    "lon": 85.31806274,
+    "lat": 27.58971228,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_141647_5437363783094484236.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31806274,
+     27.58971228
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 17,
+    "category": "Vulnerable Zone",
+    "comment": "landslide prone retaining wall. 10m long concrete canal",
+    "lon": 85.31901178,
+    "lat": 27.58936512,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_142708_2073594358865638763.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31901178,
+     27.58936512
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 18,
+    "category": "Observation Point",
+    "comment": "water leakage",
+    "lon": 85.31865224319495,
+    "lat": 27.590433720082583,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_144026_8533161649245774519.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31865224319495,
+     27.590433720082583
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 19,
+    "category": "Observation Point",
+    "comment": "Retaining wall construction",
+    "lon": 85.31911820421531,
+    "lat": 27.591061299169763,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_144628_5114662558818454458.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_144637_1230134500115290706.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_144651_8390532687459025600.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31911820421531,
+     27.591061299169763
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 20,
+    "category": "Observation Point",
+    "comment": "outlet",
+    "lon": 85.31951873173277,
+    "lat": 27.591391917314972,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_144856_1662550755187714093.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_144911_4590280981070581406.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31951873173277,
+     27.591391917314972
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 21,
+    "category": "Observation Point",
+    "comment": "outlet",
+    "lon": 85.31964869,
+    "lat": 27.59166916,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_145118_5887031589619859945.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_145130_3123522675458457871.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_145225_5088913237404521529.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31964869,
+     27.59166916
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 22,
+    "category": "Observation Point",
+    "comment": "outlet.",
+    "lon": 85.32056054,
+    "lat": 27.59233151,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150127_1348922575091845903.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150139_5149942334909280696.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32056054,
+     27.59233151
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 23,
+    "category": "Observation Point",
+    "comment": "No discharge zone",
+    "lon": 85.32063215,
+    "lat": 27.59238048,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150222_1727862167756449300.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150235_5518448007788198325.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32063215,
+     27.59238048
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 24,
+    "category": "Observation Point",
+    "comment": "waste water mix",
+    "lon": 85.32062918,
+    "lat": 27.59248642,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150337_529397626541973488.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32062918,
+     27.59248642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 25,
+    "category": "Cross Drainage",
+    "comment": "drain mixed",
+    "lon": 85.32082377,
+    "lat": 27.59360069,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150756_2340898722963765943.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32082377,
+     27.59360069
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 26,
+    "category": "Encroachment",
+    "comment": "canal below road.  2 Hume pipe seen",
+    "lon": 85.3208901402788,
+    "lat": 27.593605524491025,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_150937_5683582971787688589.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.3208901402788,
+     27.593605524491025
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 27,
+    "category": "Observation Point",
+    "comment": "outlet not in used",
+    "lon": 85.32204978,
+    "lat": 27.59589217,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_153519_7903014917155545361.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32204978,
+     27.59589217
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 28,
+    "category": "Observation Point",
+    "comment": "no water dry point",
+    "lon": 85.32281506,
+    "lat": 27.59759668,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_155317_1818970983101641773.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_155329_1324702280428983968.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32281506,
+     27.59759668
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 29,
+    "category": "Observation Point",
+    "comment": "Branching point",
+    "lon": 85.32410785,
+    "lat": 27.60153434,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_162422_8517038867735900006.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32410785,
+     27.60153434
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 30,
+    "category": "Observation Point",
+    "comment": "Branching point",
+    "lon": 85.32411276,
+    "lat": 27.60170547,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_162525_4984385265709267423.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220505_162547_5403877979988536672.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32411276,
+     27.60170547
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 31,
+    "category": "Observation Point",
+    "comment": "smqll strech 10 m underground",
+    "lon": 85.32507915,
+    "lat": 27.60465605,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_114020_8496731572539833429.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32507915,
+     27.60465605
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 32,
+    "category": "Observation Point",
+    "comment": "strom water connection from south",
+    "lon": 85.32421668060252,
+    "lat": 27.605307987453365,
+    "photos": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32421668060252,
+     27.605307987453365
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 33,
+    "category": "Observation Point",
+    "comment": "inlet to pond",
+    "lon": 85.32273121180778,
+    "lat": 27.605280638485574,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_120155_8009905238156607337.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_120229_331838375171840827.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32273121180778,
+     27.605280638485574
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 34,
+    "category": "Observation Point",
+    "comment": "outlet to irrigation. Secondary canal point",
+    "lon": 85.32261270486116,
+    "lat": 27.605402417775824,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_120520_1364160793115636682.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32261270486116,
+     27.605402417775824
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 35,
+    "category": "Observation Point",
+    "comment": "inlet towards palpukhu",
+    "lon": 85.32225447,
+    "lat": 27.6065211,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_121954_2624604840907957049.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_122009_3242148244241535489.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32225447,
+     27.6065211
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 36,
+    "category": "Intake Structure",
+    "comment": "weir",
+    "lon": 85.32167877835596,
+    "lat": 27.609448744070175,
+    "photos": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32167877835596,
+     27.609448744070175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 37,
+    "category": "Observation Point",
+    "comment": "Overhead bridge",
+    "lon": 85.32153496,
+    "lat": 27.61010201,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_124752_2695009014500945700.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32153496,
+     27.61010201
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 38,
+    "category": "Intake Structure",
+    "comment": "weir",
+    "lon": 85.32144863,
+    "lat": 27.61067747,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_125116_2849910088836879234.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32144863,
+     27.61067747
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 39,
+    "category": "Observation Point",
+    "comment": "Outlet",
+    "lon": 85.3198119935888,
+    "lat": 27.613710077490488,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_131314_3380886781711565081.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.3198119935888,
+     27.613710077490488
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 40,
+    "category": "Observation Point",
+    "comment": "36x36 of 8m length",
+    "lon": 85.31920953382507,
+    "lat": 27.61539476178945,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_132636_5525028049153578436.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_132647_3975847598332383783.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_132714_3822509556641852001.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31920953382507,
+     27.61539476178945
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 41,
+    "category": "Observation Point",
+    "comment": "Towards dhapakhel",
+    "lon": 85.31949123537105,
+    "lat": 27.61781942229914,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_143029_1607502708552982231.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31949123537105,
+     27.61781942229914
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 42,
+    "category": "Contamination",
+    "comment": "Sewage line mixed",
+    "lon": 85.31926732,
+    "lat": 27.61972929,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_143934_3409478229074631111.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_143946_8103350722555474283.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31926732,
+     27.61972929
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 43,
+    "category": "Contamination",
+    "comment": "sewage line",
+    "lon": 85.31915225,
+    "lat": 27.62020722,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_144142_6362775032725002452.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31915225,
+     27.62020722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 44,
+    "category": "Encroachment",
+    "comment": "section where canal is seperated from road",
+    "lon": 85.31915971,
+    "lat": 27.62256072,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_145635_7947955900981669806.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_145700_3509890459380510044.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31915971,
+     27.62256072
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 45,
+    "category": "Observation Point",
+    "comment": "wier",
+    "lon": 85.31924794,
+    "lat": 27.62517028,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_151110_1737232233520838511.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31924794,
+     27.62517028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 46,
+    "category": "Observation Point",
+    "comment": "canal branching of new and old canal",
+    "lon": 85.31830402,
+    "lat": 27.62976386,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220508_153151_2588369759715846239.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31830402,
+     27.62976386
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 47,
+    "category": "Observation Point",
+    "comment": "ponding outlet towards sunaguthi",
+    "lon": 85.31830752,
+    "lat": 27.6305435,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_081053_5753434413962082340.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_081106_4114072667287813242.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31830752,
+     27.6305435
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 48,
+    "category": "Vulnerable Zone",
+    "comment": "Outlet for field irrigation. 100 Ropani land. Aara ani phile.",
+    "lon": 85.31868177,
+    "lat": 27.63106175,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_081817_2333433626189944076.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_081828_8604888713304304506.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31868177,
+     27.63106175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 49,
+    "category": "Observation Point",
+    "comment": "outlet point for irrigation. Laan kwo towards malikhota",
+    "lon": 85.32006803,
+    "lat": 27.63377938,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_083156_3369653148520118760.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_083219_1524005375768141442.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32006803,
+     27.63377938
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 50,
+    "category": "Observation Point",
+    "comment": "Confluence point of two canal",
+    "lon": 85.31876275,
+    "lat": 27.63515661,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_083646_6646738753083233732.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31876275,
+     27.63515661
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 51,
+    "category": "Observation Point",
+    "comment": "actual confluence point of two canal",
+    "lon": 85.31875543,
+    "lat": 27.6352395,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_084101_3151721240788289595.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_084111_6817208894188633599.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31875543,
+     27.6352395
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 52,
+    "category": "Observation Point",
+    "comment": "used to be pond used for ponding to branch 2 canals",
+    "lon": 85.31843053,
+    "lat": 27.63693675,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_084719_8142188001350540934.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31843053,
+     27.63693675
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 53,
+    "category": "Observation Point",
+    "comment": "Outlet for irrigation. Kalpata",
+    "lon": 85.31866683,
+    "lat": 27.63465395,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_090927_3591001084706072824.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31866683,
+     27.63465395
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 54,
+    "category": "Observation Point",
+    "comment": "Entrance towards old aunaguthi settlement",
+    "lon": 85.31852919858893,
+    "lat": 27.634338816816975,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_091135_3472353221401215903.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31852919858893,
+     27.634338816816975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 55,
+    "category": "Observation Point",
+    "comment": "pukhushi. In past pond was used for ponding",
+    "lon": 85.31836367927265,
+    "lat": 27.633975900474294,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_091726_1677635679960418560.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31836367927265,
+     27.633975900474294
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 56,
+    "category": "Observation Point",
+    "comment": "Kwe lachi pukhu. Inlet and outlet is rajkulo",
+    "lon": 85.31824519569481,
+    "lat": 27.63364849528114,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_092335_3194724832471014476.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31824519569481,
+     27.63364849528114
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 57,
+    "category": "Observation Point",
+    "comment": "outlet dampa tah",
+    "lon": 85.31786070728374,
+    "lat": 27.632617761428445,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_095422_2367808194583212438.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31786070728374,
+     27.632617761428445
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 58,
+    "category": "Observation Point",
+    "comment": "no manhole seen from this point",
+    "lon": 85.31928933509704,
+    "lat": 27.644431114565208,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220510_112200_2542859425653136538.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31928933509704,
+     27.644431114565208
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 59,
+    "category": "Observation Point",
+    "comment": "wrong point",
+    "lon": 85.31845149616122,
+    "lat": 27.63681036444175,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_100445_6866020339074958448.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31845149616122,
+     27.63681036444175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 60,
+    "category": "Observation Point",
+    "comment": "Towards kusunti sanepa",
+    "lon": 85.31893819234249,
+    "lat": 27.643350588794792,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_100707_6724123421350398895.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31893819234249,
+     27.643350588794792
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 61,
+    "category": "Observation Point",
+    "comment": "another canal towards sanepa bagdol kusunti according to local of nakhipot",
+    "lon": 85.31849661094948,
+    "lat": 27.64012510402834,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_101254_4606452845996356679.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31849661094948,
+     27.64012510402834
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 62,
+    "category": "Observation Point",
+    "comment": "Irrigation canal old rajkulo not connected with rajkulo of tikabhirav as seen for now",
+    "lon": 85.32147178,
+    "lat": 27.65215467,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_104013_3321415943867346538.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_104024_6908016097794996719.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_104034_5015484365025518744.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32147178,
+     27.65215467
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 63,
+    "category": "Observation Point",
+    "comment": "towards east. All water flows here. according to local. End of rajkulo",
+    "lon": 85.32155504,
+    "lat": 27.65079625,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_105606_4635768437635979210.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_105635_6771165234580029623.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_105650_4301425079344521190.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32155504,
+     27.65079625
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 64,
+    "category": "Observation Point",
+    "comment": "old pond. Not present current",
+    "lon": 85.32429065,
+    "lat": 27.65900934,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_113527_4907610598088215806.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_113545_5496928322936230590.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32429065,
+     27.65900934
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 65,
+    "category": "Observation Point",
+    "comment": "Old police chauki",
+    "lon": 85.32424627,
+    "lat": 27.65897002,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_113651_18928448633678695.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_113719_3850855342266912352.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32424627,
+     27.65897002
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 66,
+    "category": "Observation Point",
+    "comment": "inlet to pond.",
+    "lon": 85.32383215385626,
+    "lat": 27.664523427875228,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_124239_8687468819553854907.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_124307_7990545349629139810.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32383215385626,
+     27.664523427875228
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 67,
+    "category": "Observation Point",
+    "comment": "Inlet nhoo pukhu",
+    "lon": 85.32168988,
+    "lat": 27.66530033,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_151416_4805449975930998651.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_151429_3075531533728940800.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32168988,
+     27.66530033
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "fid": 68,
+    "category": "Observation Point",
+    "comment": "Naricha. Hiti",
+    "lon": 85.32619254,
+    "lat": 27.66667415,
+    "photos": "https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_163233_2428042790335500852.jpg; https://lonerdonor.github.io/Tikabhairav-Rajkulo-Story-Map/photos/large/JPEG_20220511_163246_1860443642218936510.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32619254,
+     27.66667415
+    ]
+   }
+  }
+ ]
+}

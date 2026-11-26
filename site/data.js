@@ -20,9 +20,12 @@ const CANAL_SECTIONS = [
     ],
     "chainage": 14.26,
     "sec_len": 14.26,
-    "zcoord": null,
+    "zcoord": 1476.96,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "50.0",
@@ -66,11 +69,14 @@ const CANAL_SECTIONS = [
         27.5741385
       ]
     ],
-    "chainage": null,
+    "chainage": 47.32,
     "sec_len": 22.5,
-    "zcoord": null,
+    "zcoord": 1476.5,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "58.0",
@@ -105,11 +111,14 @@ const CANAL_SECTIONS = [
         27.5741293
       ]
     ],
-    "chainage": null,
+    "chainage": 52.35,
     "sec_len": 5.03,
-    "zcoord": null,
+    "zcoord": 1476.43,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "34.0",
@@ -147,11 +156,14 @@ const CANAL_SECTIONS = [
         27.5740721
       ]
     ],
-    "chainage": null,
+    "chainage": 73.4,
     "sec_len": 21.05,
-    "zcoord": null,
+    "zcoord": 1476.14,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "34.0",
@@ -185,11 +197,14 @@ const CANAL_SECTIONS = [
         27.5740975
       ]
     ],
-    "chainage": null,
+    "chainage": 24.82,
     "sec_len": 10.55,
-    "zcoord": null,
+    "zcoord": 1476.82,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Circular",
     "height": "—",
@@ -224,11 +239,14 @@ const CANAL_SECTIONS = [
         27.574159
       ]
     ],
-    "chainage": null,
+    "chainage": 83.95,
     "sec_len": 10.55,
-    "zcoord": null,
+    "zcoord": 1476.0,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "42.0",
@@ -267,11 +285,14 @@ const CANAL_SECTIONS = [
         27.574159
       ]
     ],
-    "chainage": null,
+    "chainage": 130.0,
     "sec_len": 46.05,
-    "zcoord": null,
+    "zcoord": 1475.36,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "25.0",
@@ -342,11 +363,14 @@ const CANAL_SECTIONS = [
         27.5747125
       ]
     ],
-    "chainage": null,
+    "chainage": 334.58,
     "sec_len": 204.58,
-    "zcoord": null,
+    "zcoord": 1472.52,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "32.0",
@@ -391,11 +415,14 @@ const CANAL_SECTIONS = [
         27.5749221
       ]
     ],
-    "chainage": null,
+    "chainage": 377.04,
     "sec_len": 42.47,
-    "zcoord": null,
+    "zcoord": 1471.94,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "32.0",
@@ -430,11 +457,12 @@ const CANAL_SECTIONS = [
         27.575093
       ]
     ],
-    "chainage": null,
+    "chainage": 415.31,
     "sec_len": 38.26,
-    "zcoord": null,
+    "zcoord": 1471.41,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -488,11 +516,14 @@ const CANAL_SECTIONS = [
         27.5753146
       ]
     ],
-    "chainage": null,
+    "chainage": 453.57,
     "sec_len": 38.26,
-    "zcoord": null,
+    "zcoord": 1470.88,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "40.0",
@@ -527,12 +558,16 @@ const CANAL_SECTIONS = [
         27.5755164
       ]
     ],
-    "chainage": null,
+    "chainage": 485.36,
     "sec_len": 31.8,
-    "zcoord": null,
+    "zcoord": 1470.43,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "42.0",
     "width": "126.0",
@@ -566,11 +601,14 @@ const CANAL_SECTIONS = [
         27.5756634
       ]
     ],
-    "chainage": null,
+    "chainage": 509.07,
     "sec_len": 23.71,
-    "zcoord": null,
+    "zcoord": 1470.11,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "42.0",
@@ -604,12 +642,16 @@ const CANAL_SECTIONS = [
         27.5758057
       ]
     ],
-    "chainage": null,
+    "chainage": 531.47,
     "sec_len": 22.4,
-    "zcoord": null,
+    "zcoord": 1469.8,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Sewage",
+    "wq_list": [
+      "River Quality",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "35.0",
     "width": "65.0",
@@ -624,8 +666,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-04 12:51:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 14,
@@ -655,11 +697,14 @@ const CANAL_SECTIONS = [
         27.5767313
       ]
     ],
-    "chainage": null,
+    "chainage": 649.66,
     "sec_len": 118.19,
-    "zcoord": null,
+    "zcoord": 1468.16,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "35.0",
@@ -694,11 +739,14 @@ const CANAL_SECTIONS = [
         27.5769041
       ]
     ],
-    "chainage": null,
+    "chainage": 669.24,
     "sec_len": 19.58,
-    "zcoord": null,
+    "zcoord": 1467.89,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "40.0",
@@ -733,11 +781,14 @@ const CANAL_SECTIONS = [
         27.5774471
       ]
     ],
-    "chainage": null,
+    "chainage": 735.82,
     "sec_len": 66.59,
-    "zcoord": null,
+    "zcoord": 1466.96,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "42.0",
@@ -775,11 +826,12 @@ const CANAL_SECTIONS = [
         27.5784185
       ]
     ],
-    "chainage": null,
+    "chainage": 866.21,
     "sec_len": 130.39,
-    "zcoord": null,
+    "zcoord": 1465.16,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -837,11 +889,14 @@ const CANAL_SECTIONS = [
         27.5797311
       ]
     ],
-    "chainage": null,
+    "chainage": 1025.92,
     "sec_len": 159.71,
-    "zcoord": null,
+    "zcoord": 1462.94,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "20.0",
@@ -884,11 +939,14 @@ const CANAL_SECTIONS = [
         27.5802426
       ]
     ],
-    "chainage": null,
+    "chainage": 1089.97,
     "sec_len": 64.06,
-    "zcoord": null,
+    "zcoord": 1462.06,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "84.0",
@@ -922,11 +980,14 @@ const CANAL_SECTIONS = [
         27.5803768
       ]
     ],
-    "chainage": null,
+    "chainage": 1105.0,
     "sec_len": 15.03,
-    "zcoord": null,
+    "zcoord": 1461.85,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "90.0",
@@ -964,11 +1025,14 @@ const CANAL_SECTIONS = [
         27.5809542
       ]
     ],
-    "chainage": null,
+    "chainage": 1178.07,
     "sec_len": 73.06,
-    "zcoord": null,
+    "zcoord": 1460.84,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "36.0",
@@ -1004,11 +1068,14 @@ const CANAL_SECTIONS = [
         27.5812098
       ]
     ],
-    "chainage": null,
+    "chainage": 1206.62,
     "sec_len": 28.55,
-    "zcoord": null,
+    "zcoord": 1460.44,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Circular",
     "height": "—",
@@ -1042,11 +1109,14 @@ const CANAL_SECTIONS = [
         27.5814494
       ]
     ],
-    "chainage": null,
+    "chainage": 1233.68,
     "sec_len": 27.06,
-    "zcoord": null,
+    "zcoord": 1460.07,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "42.0",
@@ -1085,11 +1155,14 @@ const CANAL_SECTIONS = [
         27.581611
       ]
     ],
-    "chainage": null,
+    "chainage": 1252.77,
     "sec_len": 19.09,
-    "zcoord": null,
+    "zcoord": 1459.8,
     "silting": "Absent",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "52.0",
@@ -1155,11 +1228,14 @@ const CANAL_SECTIONS = [
         27.5826708
       ]
     ],
-    "chainage": null,
+    "chainage": 1380.43,
     "sec_len": 127.66,
-    "zcoord": null,
+    "zcoord": 1458.03,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "30.0",
@@ -1193,11 +1269,14 @@ const CANAL_SECTIONS = [
         27.5830334
       ]
     ],
-    "chainage": null,
+    "chainage": 1436.15,
     "sec_len": 55.72,
-    "zcoord": null,
+    "zcoord": 1457.26,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "40.0",
@@ -1235,11 +1314,14 @@ const CANAL_SECTIONS = [
         27.5832068
       ]
     ],
-    "chainage": null,
+    "chainage": 1479.49,
     "sec_len": 43.35,
-    "zcoord": null,
+    "zcoord": 1456.66,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "25.0",
@@ -1273,11 +1355,14 @@ const CANAL_SECTIONS = [
         27.5832497
       ]
     ],
-    "chainage": null,
+    "chainage": 1484.86,
     "sec_len": 5.37,
-    "zcoord": null,
+    "zcoord": 1456.58,
     "silting": "—",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "37.0",
@@ -1328,11 +1413,14 @@ const CANAL_SECTIONS = [
         27.5839504
       ]
     ],
-    "chainage": null,
+    "chainage": 1567.6,
     "sec_len": 82.73,
-    "zcoord": null,
+    "zcoord": 1455.44,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "38.0",
@@ -1378,11 +1466,14 @@ const CANAL_SECTIONS = [
         27.5846341
       ]
     ],
-    "chainage": null,
+    "chainage": 1657.83,
     "sec_len": 90.23,
-    "zcoord": null,
+    "zcoord": 1454.19,
     "silting": "—",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "—",
@@ -1424,11 +1515,14 @@ const CANAL_SECTIONS = [
         27.5851593
       ]
     ],
-    "chainage": null,
+    "chainage": 1718.41,
     "sec_len": 60.58,
-    "zcoord": null,
+    "zcoord": 1453.35,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "24.0",
@@ -1476,11 +1570,14 @@ const CANAL_SECTIONS = [
         27.5855067
       ]
     ],
-    "chainage": null,
+    "chainage": 1757.33,
     "sec_len": 38.92,
-    "zcoord": null,
+    "zcoord": 1452.81,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "24.0",
@@ -1518,11 +1615,14 @@ const CANAL_SECTIONS = [
         27.5859103
       ]
     ],
-    "chainage": null,
+    "chainage": 1804.88,
     "sec_len": 47.55,
-    "zcoord": null,
+    "zcoord": 1452.15,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Circular",
     "height": "—",
@@ -1561,11 +1661,12 @@ const CANAL_SECTIONS = [
         27.5863426
       ]
     ],
-    "chainage": null,
+    "chainage": 1856.57,
     "sec_len": 51.69,
-    "zcoord": null,
+    "zcoord": 1451.43,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -1580,8 +1681,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": null,
     "created": "2022-05-05 12:26:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 35,
@@ -1607,11 +1708,14 @@ const CANAL_SECTIONS = [
         27.5863529
       ]
     ],
-    "chainage": null,
+    "chainage": 1899.07,
     "sec_len": 42.51,
-    "zcoord": null,
+    "zcoord": 1450.84,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "56.0",
@@ -1645,11 +1749,14 @@ const CANAL_SECTIONS = [
         27.5866533
       ]
     ],
-    "chainage": null,
+    "chainage": 1920.86,
     "sec_len": 21.79,
-    "zcoord": null,
+    "zcoord": 1450.54,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "56.0",
@@ -1691,11 +1798,14 @@ const CANAL_SECTIONS = [
         27.5867582
       ]
     ],
-    "chainage": null,
+    "chainage": 1960.15,
     "sec_len": 39.29,
-    "zcoord": null,
+    "zcoord": 1450.0,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "38.0",
@@ -1742,11 +1852,14 @@ const CANAL_SECTIONS = [
         27.5868351
       ]
     ],
-    "chainage": null,
+    "chainage": 2108.27,
     "sec_len": 148.12,
-    "zcoord": null,
+    "zcoord": 1447.95,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "40.0",
@@ -1816,12 +1929,16 @@ const CANAL_SECTIONS = [
         27.5874368
       ]
     ],
-    "chainage": null,
+    "chainage": 2150.45,
     "sec_len": 42.19,
-    "zcoord": null,
+    "zcoord": 1447.36,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "52.0",
@@ -1878,12 +1995,16 @@ const CANAL_SECTIONS = [
         27.5875411
       ]
     ],
-    "chainage": null,
+    "chainage": 2166.28,
     "sec_len": 15.82,
-    "zcoord": null,
+    "zcoord": 1447.14,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "40.0",
     "width": "68.0",
@@ -1925,12 +2046,16 @@ const CANAL_SECTIONS = [
         27.587671
       ]
     ],
-    "chainage": null,
+    "chainage": 2196.78,
     "sec_len": 30.5,
-    "zcoord": null,
+    "zcoord": 1446.72,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "28.0",
     "width": "66.0",
@@ -1986,12 +2111,16 @@ const CANAL_SECTIONS = [
         27.5878642
       ]
     ],
-    "chainage": null,
+    "chainage": 2288.53,
     "sec_len": 91.75,
-    "zcoord": null,
+    "zcoord": 1445.45,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -2044,12 +2173,16 @@ const CANAL_SECTIONS = [
         27.5880206
       ]
     ],
-    "chainage": null,
+    "chainage": 2327.37,
     "sec_len": 38.84,
-    "zcoord": null,
+    "zcoord": 1444.91,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -2110,12 +2243,16 @@ const CANAL_SECTIONS = [
         27.5888389
       ]
     ],
-    "chainage": null,
+    "chainage": 2477.59,
     "sec_len": 150.22,
-    "zcoord": null,
+    "zcoord": 1442.83,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "25.0",
     "width": "68.0",
@@ -2217,12 +2354,16 @@ const CANAL_SECTIONS = [
         27.5896748
       ]
     ],
-    "chainage": null,
+    "chainage": 2636.73,
     "sec_len": 159.14,
-    "zcoord": null,
+    "zcoord": 1440.62,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "38.0",
     "width": "70.0",
@@ -2271,12 +2412,17 @@ const CANAL_SECTIONS = [
         27.5894655
       ]
     ],
-    "chainage": null,
+    "chainage": 2706.17,
     "sec_len": 69.44,
-    "zcoord": null,
+    "zcoord": 1439.66,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Waste Dumping",
+    "wq_list": [
+      "River Quality",
+      "Storm Water",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "80.0",
@@ -2290,8 +2436,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 14:23:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 47,
@@ -2317,11 +2463,14 @@ const CANAL_SECTIONS = [
         27.5893093
       ]
     ],
-    "chainage": null,
+    "chainage": 2758.73,
     "sec_len": 52.56,
-    "zcoord": null,
+    "zcoord": 1438.93,
     "silting": "Present",
     "wq": "River Quality",
+    "wq_list": [
+      "River Quality"
+    ],
     "wq_color": "#1D9E75",
     "shape": "Rectangular",
     "height": "32.0",
@@ -2409,12 +2558,16 @@ const CANAL_SECTIONS = [
         27.5904234
       ]
     ],
-    "chainage": null,
+    "chainage": 2919.4,
     "sec_len": 160.67,
-    "zcoord": null,
+    "zcoord": 1436.71,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "76.0",
@@ -2467,12 +2620,16 @@ const CANAL_SECTIONS = [
         27.5911273
       ]
     ],
-    "chainage": null,
+    "chainage": 3036.43,
     "sec_len": 117.03,
-    "zcoord": null,
+    "zcoord": 1435.08,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "76.0",
@@ -2545,12 +2702,16 @@ const CANAL_SECTIONS = [
         27.5917306
       ]
     ],
-    "chainage": null,
+    "chainage": 3124.08,
     "sec_len": 87.65,
-    "zcoord": null,
+    "zcoord": 1433.87,
     "silting": "Present",
-    "wq": "River Quality",
-    "wq_color": "#1D9E75",
+    "wq": "Storm Water",
+    "wq_list": [
+      "River Quality",
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "76.0",
@@ -2580,19 +2741,164 @@ const CANAL_SECTIONS = [
         27.5917306
       ],
       [
-        85.3202332,
-        27.5924585
+        85.3197883,
+        27.5917684
       ],
       [
-        85.3207485,
-        27.5931865
+        85.3198487,
+        27.5918041
+      ],
+      [
+        85.3199023,
+        27.5918671
+      ],
+      [
+        85.3199559,
+        27.5919146
+      ],
+      [
+        85.320023,
+        27.5919538
+      ],
+      [
+        85.3200967,
+        27.5920061
+      ],
+      [
+        85.3201638,
+        27.5920572
+      ],
+      [
+        85.3202308,
+        27.5921083
+      ],
+      [
+        85.3203046,
+        27.5921582
+      ],
+      [
+        85.3203716,
+        27.5921963
+      ],
+      [
+        85.3204387,
+        27.592226
+      ],
+      [
+        85.3205057,
+        27.5922474
+      ],
+      [
+        85.3205527,
+        27.5922771
+      ],
+      [
+        85.32056054,
+        27.59233151
+      ],
+      [
+        85.32063215,
+        27.59238048
+      ],
+      [
+        85.32062918,
+        27.59248642
+      ],
+      [
+        85.320622,
+        27.5925556
+      ],
+      [
+        85.3206059,
+        27.592615
+      ],
+      [
+        85.3205978,
+        27.5926863
+      ],
+      [
+        85.3206059,
+        27.5927576
+      ],
+      [
+        85.3206193,
+        27.5928407
+      ],
+      [
+        85.3206313,
+        27.5929239
+      ],
+      [
+        85.320689,
+        27.5930486
+      ],
+      [
+        85.3207695,
+        27.5931401
+      ],
+      [
+        85.3208433,
+        27.5932209
+      ],
+      [
+        85.3208634,
+        27.59331
+      ],
+      [
+        85.3208795,
+        27.5933753
+      ],
+      [
+        85.3208902,
+        27.5934347
+      ],
+      [
+        85.3208795,
+        27.5935001
+      ],
+      [
+        85.3208527,
+        27.5935595
+      ],
+      [
+        85.32082377,
+        27.59360069
+      ],
+      [
+        85.3208901402788,
+        27.593605524491025
+      ],
+      [
+        85.3209287,
+        27.5936567
+      ],
+      [
+        85.3209957,
+        27.5937126
+      ],
+      [
+        85.3210627,
+        27.5937673
+      ],
+      [
+        85.3211297,
+        27.5938196
+      ],
+      [
+        85.3211967,
+        27.5938696
+      ],
+      [
+        85.3212639,
+        27.5939144
       ]
     ],
-    "chainage": null,
+    "chainage": 3441.24,
     "sec_len": 317.16,
-    "zcoord": null,
+    "zcoord": 1429.48,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -2605,8 +2911,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 52,
@@ -2628,12 +2934,16 @@ const CANAL_SECTIONS = [
         27.5943752
       ]
     ],
-    "chainage": null,
+    "chainage": 3499.41,
     "sec_len": 58.17,
-    "zcoord": null,
+    "zcoord": 1428.67,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "36.0",
     "width": "50.0",
@@ -2648,8 +2958,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:13:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 53,
@@ -2667,12 +2977,16 @@ const CANAL_SECTIONS = [
         27.5947179
       ]
     ],
-    "chainage": null,
+    "chainage": 3537.82,
     "sec_len": 38.42,
-    "zcoord": null,
+    "zcoord": 1428.14,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -2687,8 +3001,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:20:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 54,
@@ -2706,12 +3020,16 @@ const CANAL_SECTIONS = [
         27.5955852
       ]
     ],
-    "chainage": null,
+    "chainage": 3636.9,
     "sec_len": 99.08,
-    "zcoord": null,
+    "zcoord": 1426.76,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -2726,8 +3044,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:29:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 55,
@@ -2745,11 +3063,12 @@ const CANAL_SECTIONS = [
         27.5958215
       ]
     ],
-    "chainage": null,
+    "chainage": 3669.54,
     "sec_len": 32.64,
-    "zcoord": null,
+    "zcoord": 1426.31,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -2786,12 +3105,16 @@ const CANAL_SECTIONS = [
         27.5958948
       ]
     ],
-    "chainage": null,
+    "chainage": 3726.34,
     "sec_len": 56.79,
-    "zcoord": null,
+    "zcoord": 1425.52,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "36.0",
     "width": "72.0",
@@ -2805,8 +3128,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:36:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 57,
@@ -2832,12 +3155,16 @@ const CANAL_SECTIONS = [
         27.5960077
       ]
     ],
-    "chainage": null,
+    "chainage": 3739.38,
     "sec_len": 13.04,
-    "zcoord": null,
+    "zcoord": 1425.34,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -2852,8 +3179,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:41:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 58,
@@ -2879,12 +3206,16 @@ const CANAL_SECTIONS = [
         27.5967933
       ]
     ],
-    "chainage": null,
+    "chainage": 3833.44,
     "sec_len": 94.06,
-    "zcoord": null,
+    "zcoord": 1424.04,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "68.0",
@@ -2898,8 +3229,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:47:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 59,
@@ -2953,12 +3284,16 @@ const CANAL_SECTIONS = [
         27.5981572
       ]
     ],
-    "chainage": null,
+    "chainage": 4048.71,
     "sec_len": 215.27,
-    "zcoord": null,
+    "zcoord": 1421.06,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "34.0",
     "width": "58.0",
@@ -2973,8 +3308,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 15:56:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 60,
@@ -3004,12 +3339,16 @@ const CANAL_SECTIONS = [
         27.5983006
       ]
     ],
-    "chainage": null,
+    "chainage": 4065.85,
     "sec_len": 17.14,
-    "zcoord": null,
+    "zcoord": 1420.82,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "58.0",
@@ -3025,8 +3364,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 16:01:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 61,
@@ -3044,11 +3383,12 @@ const CANAL_SECTIONS = [
         27.5989814
       ]
     ],
-    "chainage": null,
+    "chainage": 4147.15,
     "sec_len": 81.3,
-    "zcoord": null,
+    "zcoord": 1419.69,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -3085,11 +3425,15 @@ const CANAL_SECTIONS = [
         27.5993769
       ]
     ],
-    "chainage": null,
+    "chainage": 4194.66,
     "sec_len": 47.51,
-    "zcoord": null,
+    "zcoord": 1419.04,
     "silting": "Present",
     "wq": "Sewage",
+    "wq_list": [
+      "Sewage",
+      "Waste Dumping"
+    ],
     "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
@@ -3127,11 +3471,15 @@ const CANAL_SECTIONS = [
         27.599667
       ]
     ],
-    "chainage": null,
+    "chainage": 4226.81,
     "sec_len": 32.16,
-    "zcoord": null,
+    "zcoord": 1418.59,
     "silting": "Present",
     "wq": "Sewage",
+    "wq_list": [
+      "Sewage",
+      "Waste Dumping"
+    ],
     "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "48.0",
@@ -3165,11 +3513,12 @@ const CANAL_SECTIONS = [
         27.6012815
       ]
     ],
-    "chainage": null,
+    "chainage": 4417.13,
     "sec_len": 190.32,
-    "zcoord": null,
+    "zcoord": 1415.95,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -3204,12 +3553,17 @@ const CANAL_SECTIONS = [
         27.6014522
       ]
     ],
-    "chainage": null,
+    "chainage": 4512.7,
     "sec_len": 95.58,
-    "zcoord": null,
+    "zcoord": 1414.63,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "48.0",
     "width": "65.0",
@@ -3223,8 +3577,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-05 16:21:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 66,
@@ -3242,11 +3596,12 @@ const CANAL_SECTIONS = [
         27.6040252
       ]
     ],
-    "chainage": null,
+    "chainage": 4781.41,
     "sec_len": 268.7,
-    "zcoord": null,
+    "zcoord": 1410.91,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -3282,12 +3637,16 @@ const CANAL_SECTIONS = [
         27.6043764
       ]
     ],
-    "chainage": null,
+    "chainage": 4820.83,
     "sec_len": 39.42,
-    "zcoord": null,
+    "zcoord": 1410.36,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "74.0",
@@ -3302,8 +3661,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 11:35:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 68,
@@ -3325,12 +3684,16 @@ const CANAL_SECTIONS = [
         27.60497
       ]
     ],
-    "chainage": null,
+    "chainage": 4887.54,
     "sec_len": 66.71,
-    "zcoord": null,
+    "zcoord": 1409.43,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "42.0",
     "width": "34.0",
@@ -3344,8 +3707,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 11:43:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 69,
@@ -3363,12 +3726,16 @@ const CANAL_SECTIONS = [
         27.605133
       ]
     ],
-    "chainage": null,
+    "chainage": 4928.54,
     "sec_len": 40.99,
-    "zcoord": null,
+    "zcoord": 1408.87,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "36.0",
     "width": "32.0",
@@ -3383,8 +3750,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 11:46:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 70,
@@ -3414,11 +3781,12 @@ const CANAL_SECTIONS = [
         27.6049201
       ]
     ],
-    "chainage": null,
+    "chainage": 5118.72,
     "sec_len": 190.19,
-    "zcoord": null,
+    "zcoord": 1406.23,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -3453,12 +3821,15 @@ const CANAL_SECTIONS = [
         27.6053747
       ]
     ],
-    "chainage": null,
+    "chainage": 5179.89,
     "sec_len": 61.17,
-    "zcoord": null,
+    "zcoord": 1405.38,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Storm Water",
+    "wq_list": [
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "65.0",
@@ -3495,12 +3866,17 @@ const CANAL_SECTIONS = [
         27.6061613
       ]
     ],
-    "chainage": null,
+    "chainage": 5283.18,
     "sec_len": 103.29,
-    "zcoord": null,
+    "zcoord": 1403.95,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "32.0",
     "width": "68.0",
@@ -3515,8 +3891,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 12:15:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 73,
@@ -3546,12 +3922,17 @@ const CANAL_SECTIONS = [
         27.6067171
       ]
     ],
-    "chainage": null,
+    "chainage": 5351.56,
     "sec_len": 68.38,
-    "zcoord": null,
+    "zcoord": 1403.0,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "28.0",
     "width": "64.0",
@@ -3565,8 +3946,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 12:23:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 74,
@@ -3588,12 +3969,17 @@ const CANAL_SECTIONS = [
         27.6067216
       ]
     ],
-    "chainage": null,
+    "chainage": 5512.95,
     "sec_len": 161.39,
-    "zcoord": null,
+    "zcoord": 1400.77,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "38.0",
     "width": "68.0",
@@ -3608,8 +3994,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 12:31:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 75,
@@ -3631,12 +4017,17 @@ const CANAL_SECTIONS = [
         27.6106768
       ]
     ],
-    "chainage": null,
+    "chainage": 5811.73,
     "sec_len": 298.77,
-    "zcoord": null,
+    "zcoord": 1396.63,
     "silting": "—",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "24.0",
     "width": "56.0",
@@ -3650,8 +4041,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 12:52:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 76,
@@ -3669,12 +4060,17 @@ const CANAL_SECTIONS = [
         27.6113465
       ]
     ],
-    "chainage": null,
+    "chainage": 5886.7,
     "sec_len": 74.98,
-    "zcoord": null,
+    "zcoord": 1395.59,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -3688,8 +4084,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 12:56:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 77,
@@ -3707,12 +4103,17 @@ const CANAL_SECTIONS = [
         27.6120383
       ]
     ],
-    "chainage": null,
+    "chainage": 5970.82,
     "sec_len": 84.12,
-    "zcoord": null,
+    "zcoord": 1394.42,
     "silting": "—",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Circular",
     "height": "—",
     "width": "—",
@@ -3726,8 +4127,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 13:07:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 78,
@@ -3749,11 +4150,12 @@ const CANAL_SECTIONS = [
         27.6135622
       ]
     ],
-    "chainage": null,
+    "chainage": 6169.53,
     "sec_len": 198.71,
-    "zcoord": null,
+    "zcoord": 1391.67,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -3788,12 +4190,17 @@ const CANAL_SECTIONS = [
         27.6137564
       ]
     ],
-    "chainage": null,
+    "chainage": 6201.33,
     "sec_len": 31.8,
-    "zcoord": null,
+    "zcoord": 1391.23,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "36.0",
     "width": "58.0",
@@ -3808,8 +4215,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 13:15:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 80,
@@ -3827,12 +4234,17 @@ const CANAL_SECTIONS = [
         27.6142204
       ]
     ],
-    "chainage": null,
+    "chainage": 6262.0,
     "sec_len": 60.67,
-    "zcoord": null,
+    "zcoord": 1390.39,
     "silting": "—",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -3846,8 +4258,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 13:18:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 81,
@@ -3865,12 +4277,17 @@ const CANAL_SECTIONS = [
         27.6144192
       ]
     ],
-    "chainage": null,
+    "chainage": 6290.56,
     "sec_len": 28.56,
-    "zcoord": null,
+    "zcoord": 1389.99,
     "silting": "—",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -3885,8 +4302,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 13:22:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 82,
@@ -3908,11 +4325,12 @@ const CANAL_SECTIONS = [
         27.6162902
       ]
     ],
-    "chainage": null,
+    "chainage": 6498.39,
     "sec_len": 207.82,
-    "zcoord": null,
+    "zcoord": 1387.11,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "Rectangular",
     "height": "36.0",
@@ -3951,12 +4369,15 @@ const CANAL_SECTIONS = [
         27.6170252
       ]
     ],
-    "chainage": null,
+    "chainage": 6593.74,
     "sec_len": 95.35,
-    "zcoord": null,
+    "zcoord": 1385.79,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Storm Water",
+    "wq_list": [
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "36.0",
     "width": "44.0",
@@ -3989,12 +4410,15 @@ const CANAL_SECTIONS = [
         27.6177909
       ]
     ],
-    "chainage": null,
+    "chainage": 6680.77,
     "sec_len": 87.03,
-    "zcoord": null,
+    "zcoord": 1384.59,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Storm Water",
+    "wq_list": [
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Rectangular",
     "height": "28.0",
     "width": "58.0",
@@ -4037,12 +4461,16 @@ const CANAL_SECTIONS = [
         27.6202268
       ]
     ],
-    "chainage": null,
+    "chainage": 6955.08,
     "sec_len": 274.31,
-    "zcoord": null,
+    "zcoord": 1380.79,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "28.0",
     "width": "30.0",
@@ -4059,8 +4487,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 14:48:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 86,
@@ -4090,12 +4518,17 @@ const CANAL_SECTIONS = [
         27.6237193
       ]
     ],
-    "chainage": null,
+    "chainage": 7344.95,
     "sec_len": 389.87,
-    "zcoord": null,
+    "zcoord": 1375.38,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "28.0",
     "width": "30.0",
@@ -4110,8 +4543,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 15:04:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 87,
@@ -4137,12 +4570,17 @@ const CANAL_SECTIONS = [
         27.6253329
       ]
     ],
-    "chainage": null,
+    "chainage": 7526.16,
     "sec_len": 181.21,
-    "zcoord": null,
+    "zcoord": 1372.87,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "26.0",
     "width": "42.0",
@@ -4160,8 +4598,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 15:15:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 88,
@@ -4183,12 +4621,17 @@ const CANAL_SECTIONS = [
         27.6262426
       ]
     ],
-    "chainage": null,
+    "chainage": 7645.73,
     "sec_len": 119.57,
-    "zcoord": null,
+    "zcoord": 1371.21,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "—",
     "width": "—",
@@ -4206,8 +4649,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-08 15:20:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "Poor",
+    "color": "#d4721a"
   },
   {
     "idx": 89,
@@ -4233,11 +4676,12 @@ const CANAL_SECTIONS = [
         27.6306662
       ]
     ],
-    "chainage": null,
+    "chainage": 8133.75,
     "sec_len": 488.01,
-    "zcoord": null,
+    "zcoord": 1364.45,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4285,12 +4729,15 @@ const CANAL_SECTIONS = [
         27.6352392
       ]
     ],
-    "chainage": null,
+    "chainage": 8738.48,
     "sec_len": 604.73,
-    "zcoord": null,
+    "zcoord": 1356.07,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Storm Water",
+    "wq_list": [
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Circular",
     "height": "—",
     "width": "—",
@@ -4347,12 +4794,15 @@ const CANAL_SECTIONS = [
         27.6352391
       ]
     ],
-    "chainage": null,
+    "chainage": 8460.5,
     "sec_len": 326.76,
-    "zcoord": null,
+    "zcoord": 1359.92,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Storm Water",
+    "wq_list": [
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Circular",
     "height": "—",
     "width": "—",
@@ -4389,11 +4839,12 @@ const CANAL_SECTIONS = [
         27.6324513
       ]
     ],
-    "chainage": null,
+    "chainage": 8373.78,
     "sec_len": 240.04,
-    "zcoord": null,
+    "zcoord": 1361.13,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4436,12 +4887,15 @@ const CANAL_SECTIONS = [
         27.6374161
       ]
     ],
-    "chainage": null,
+    "chainage": 8981.81,
     "sec_len": 243.33,
-    "zcoord": null,
+    "zcoord": 1352.7,
     "silting": "Absent",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Storm Water",
+    "wq_list": [
+      "Storm Water"
+    ],
+    "wq_color": "#5ba4c8",
     "shape": "Circular",
     "height": "—",
     "width": "—",
@@ -4506,12 +4960,17 @@ const CANAL_SECTIONS = [
         27.6374182
       ]
     ],
-    "chainage": null,
+    "chainage": 9650.31,
     "sec_len": 668.5,
-    "zcoord": null,
+    "zcoord": 1343.44,
     "silting": "Present",
-    "wq": "Strom Water",
-    "wq_color": "#888",
+    "wq": "Sewage",
+    "wq_list": [
+      "Storm Water",
+      "Sewage",
+      "Waste Dumping"
+    ],
+    "wq_color": "#c0392b",
     "shape": "Rectangular",
     "height": "20.0",
     "width": "50.0",
@@ -4528,8 +4987,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": "Yes",
     "created": "2022-05-10 10:38:00",
-    "condition": "Fair",
-    "color": "#d4a017"
+    "condition": "Critical",
+    "color": "#c0392b"
   },
   {
     "idx": 95,
@@ -4551,11 +5010,12 @@ const CANAL_SECTIONS = [
         27.6368224
       ]
     ],
-    "chainage": null,
+    "chainage": 9848.92,
     "sec_len": 198.61,
-    "zcoord": null,
+    "zcoord": 1340.69,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4568,8 +5028,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 96,
@@ -4591,11 +5051,12 @@ const CANAL_SECTIONS = [
         27.6359287
       ]
     ],
-    "chainage": null,
+    "chainage": 10204.61,
     "sec_len": 355.69,
-    "zcoord": null,
+    "zcoord": 1335.76,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4608,8 +5069,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 97,
@@ -4631,11 +5092,12 @@ const CANAL_SECTIONS = [
         27.6359761
       ]
     ],
-    "chainage": null,
+    "chainage": 10697.98,
     "sec_len": 493.37,
-    "zcoord": null,
+    "zcoord": 1328.92,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4648,8 +5110,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 98,
@@ -4659,23 +5121,220 @@ const CANAL_SECTIONS = [
     "is_connector": true,
     "coords": [
       [
-        85.3188428,
-        27.6361487
+        85.3190135,
+        27.6432784
       ],
       [
-        85.3199509,
-        27.643281
+        85.3189947,
+        27.6433088
       ],
       [
-        85.3210589,
-        27.6504134
+        85.3190893,
+        27.6436726
+      ],
+      [
+        85.3191115,
+        27.6438117
+      ],
+      [
+        85.3191308,
+        27.643933
+      ],
+      [
+        85.3191826,
+        27.6441947
+      ],
+      [
+        85.3192532,
+        27.6445514
+      ],
+      [
+        85.3192791,
+        27.6446527
+      ],
+      [
+        85.319456,
+        27.6453444
+      ],
+      [
+        85.3194962,
+        27.6454756
+      ],
+      [
+        85.3195178,
+        27.6455463
+      ],
+      [
+        85.3195423,
+        27.6455961
+      ],
+      [
+        85.3196563,
+        27.645949
+      ],
+      [
+        85.3198431,
+        27.6466281
+      ],
+      [
+        85.319905,
+        27.6468976
+      ],
+      [
+        85.3199269,
+        27.6472155
+      ],
+      [
+        85.3199387,
+        27.6474598
+      ],
+      [
+        85.319811,
+        27.6480404
+      ],
+      [
+        85.3198279,
+        27.6481873
+      ],
+      [
+        85.31989,
+        27.6483231
+      ],
+      [
+        85.3201429,
+        27.6486531
+      ],
+      [
+        85.3203338,
+        27.6489113
+      ],
+      [
+        85.3203985,
+        27.6490121
+      ],
+      [
+        85.3206387,
+        27.6494115
+      ],
+      [
+        85.3207409,
+        27.6495901
+      ],
+      [
+        85.3207973,
+        27.6496802
+      ],
+      [
+        85.3208513,
+        27.6497837
+      ],
+      [
+        85.3209881,
+        27.650045
+      ],
+      [
+        85.3210142,
+        27.6500949
+      ],
+      [
+        85.3212414,
+        27.6503651
+      ],
+      [
+        85.3213671,
+        27.6504953
+      ],
+      [
+        85.3214975,
+        27.6507725
+      ],
+      [
+        85.3216373,
+        27.6511059
+      ],
+      [
+        85.3217034,
+        27.6512944
+      ],
+      [
+        85.3216971,
+        27.651392
+      ],
+      [
+        85.3216915,
+        27.6515716
+      ],
+      [
+        85.3214576,
+        27.6519465
+      ],
+      [
+        85.3213998,
+        27.6521089
+      ],
+      [
+        85.3213964,
+        27.6522673
+      ],
+      [
+        85.3213958,
+        27.6524093
+      ],
+      [
+        85.321392,
+        27.6533502
+      ],
+      [
+        85.3214648,
+        27.653594
+      ],
+      [
+        85.3216332,
+        27.6539688
+      ],
+      [
+        85.3217942,
+        27.654446
+      ],
+      [
+        85.3218179,
+        27.65465
+      ],
+      [
+        85.3218372,
+        27.6553331
+      ],
+      [
+        85.3218815,
+        27.6556035
+      ],
+      [
+        85.3218963,
+        27.6556869
+      ],
+      [
+        85.322009,
+        27.6569923
+      ],
+      [
+        85.3220882,
+        27.6571544
+      ],
+      [
+        85.3221459,
+        27.65726
+      ],
+      [
+        85.322167,
+        27.6575457
       ]
     ],
-    "chainage": null,
-    "sec_len": 562.71,
-    "zcoord": null,
+    "chainage": 11309.92,
+    "sec_len": 1659.61,
+    "zcoord": 1320.44,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4688,8 +5347,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 99,
@@ -4711,11 +5370,12 @@ const CANAL_SECTIONS = [
         27.6593187
       ]
     ],
-    "chainage": null,
+    "chainage": 11403.97,
     "sec_len": 94.05,
-    "zcoord": null,
+    "zcoord": 1319.14,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4731,8 +5391,8 @@ const CANAL_SECTIONS = [
     ],
     "cseen": null,
     "created": "2022-05-11 11:30:00",
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 100,
@@ -4754,11 +5414,12 @@ const CANAL_SECTIONS = [
         27.659664
       ]
     ],
-    "chainage": null,
+    "chainage": 11479.83,
     "sec_len": 75.86,
-    "zcoord": null,
+    "zcoord": 1318.09,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4771,8 +5432,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 101,
@@ -4794,11 +5455,12 @@ const CANAL_SECTIONS = [
         27.6601819
       ]
     ],
-    "chainage": null,
+    "chainage": 11639.79,
     "sec_len": 159.96,
-    "zcoord": null,
+    "zcoord": 1315.87,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4811,8 +5473,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 102,
@@ -4834,11 +5496,12 @@ const CANAL_SECTIONS = [
         27.6606998
       ]
     ],
-    "chainage": null,
+    "chainage": 10938.73,
     "sec_len": 240.75,
-    "zcoord": null,
+    "zcoord": 1325.58,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4851,8 +5514,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 103,
@@ -4874,11 +5537,12 @@ const CANAL_SECTIONS = [
         27.6612177
       ]
     ],
-    "chainage": null,
+    "chainage": 11025.0,
     "sec_len": 86.27,
-    "zcoord": null,
+    "zcoord": 1324.39,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4891,8 +5555,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 104,
@@ -4914,11 +5578,12 @@ const CANAL_SECTIONS = [
         27.6617356
       ]
     ],
-    "chainage": null,
+    "chainage": 11252.88,
     "sec_len": 227.87,
-    "zcoord": null,
+    "zcoord": 1321.23,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4931,8 +5596,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 105,
@@ -4954,11 +5619,12 @@ const CANAL_SECTIONS = [
         27.6622535
       ]
     ],
-    "chainage": null,
+    "chainage": 11642.69,
     "sec_len": 389.81,
-    "zcoord": null,
+    "zcoord": 1315.83,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -4971,8 +5637,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   },
   {
     "idx": 106,
@@ -4994,11 +5660,12 @@ const CANAL_SECTIONS = [
         27.662944
       ]
     ],
-    "chainage": null,
+    "chainage": 11773.34,
     "sec_len": 130.66,
-    "zcoord": null,
+    "zcoord": 1314.02,
     "silting": "—",
     "wq": "—",
+    "wq_list": [],
     "wq_color": "#888",
     "shape": "—",
     "height": "—",
@@ -5011,8 +5678,8 @@ const CANAL_SECTIONS = [
     "photos": [],
     "cseen": null,
     "created": null,
-    "condition": "Good",
-    "color": "#1D9E75"
+    "condition": "No data",
+    "color": "#9aa0a6"
   }
 ];
 

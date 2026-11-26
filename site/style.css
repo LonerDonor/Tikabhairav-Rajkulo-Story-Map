@@ -988,3 +988,139 @@ button { font: inherit; cursor: pointer; }
   #app { display: block; }
   #map { height: auto; }
 }
+
+/* ── ADDITIONS: data-driven legend, POI sizes, condition strip ── */
+.flt-row label[hidden], [data-cond-chip][hidden] { display: none !important; }
+.flt-row .line-dashed {
+  background: repeating-linear-gradient(90deg, #9aa0a6 0 5px, transparent 5px 8px);
+}
+
+/* POI markers: key categories as pins, observation points as small dots */
+.poi-pin {
+  width: 26px; height: 26px; border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+.poi-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.wq-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+
+/* Condition along the canal (Analysis tab) */
+.condition-strip { margin: 0.4rem 0 0.2rem; }
+.condition-strip svg { width: 100%; height: 46px; display: block; }
+.condition-strip .cs-block { cursor: pointer; stroke: var(--bg-primary); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.condition-strip .cs-block:hover, .condition-strip .cs-block:focus { stroke: #fff; stroke-width: 3; vector-effect: non-scaling-stroke; outline: none; }
+.condition-strip .cs-placeholder { opacity: 0.55; }
+.condition-strip .cs-sewage { fill: #ef4444; }
+.condition-strip .cs-axis {
+  position: relative; height: 1.1rem; margin-top: 2px;
+  font-family: 'DM Mono', monospace; font-size: 0.62rem; color: var(--text-secondary);
+}
+.condition-strip .cs-axis span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.condition-strip .cs-axis span::before {
+  content: ''; position: absolute; left: 50%; top: -3px; width: 1px; height: 3px; background: var(--text-secondary);
+}
+.condition-strip .cs-ends {
+  display: flex; justify-content: space-between;
+  font-family: 'DM Mono', monospace; font-size: 0.62rem;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
+}
+.condition-summary { margin: 0.6rem 0 1.4rem; }
+.condition-summary .cs-row {
+  display: grid; grid-template-columns: 14px 1fr auto; gap: 0.5rem; align-items: center;
+  font-size: 0.82rem; padding: 0.22rem 0;
+  border-bottom: 1px solid rgba(240, 249, 255, 0.06);
+}
+.condition-summary .cs-num { font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--text-secondary); }
+.condition-summary .cs-note { font-size: 0.78rem; color: var(--text-secondary); margin-top: 0.6rem; line-height: 1.5; }
+.condition-summary .ix-chip { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+
+/* ── LANGUAGE SWITCH ────────────────────────────────────────── */
+.sidebar-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.75rem; }
+.sidebar-brand { min-width: 0; }
+.lang-toggle {
+  flex-shrink: 0;
+  min-height: 36px; padding: 0.35rem 0.8rem;
+  border: 1px solid rgba(94, 234, 212, 0.45); border-radius: 999px;
+  background: transparent; color: var(--water);
+  font-family: 'Noto Sans Devanagari', 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 500;
+  cursor: pointer; transition: background 0.15s, color 0.15s;
+}
+.lang-toggle:hover, .lang-toggle:focus-visible { background: var(--water); color: var(--bg-primary); }
+.splash-lang { position: absolute; top: 1.2rem; right: 1.2rem; }
+
+/* Nepali: Devanagari fonts, and no letter-spacing (it breaks conjunct letters) */
+body.lang-ne { font-family: 'Noto Sans Devanagari', 'DM Sans', system-ui, sans-serif; }
+body.lang-ne #sidebar *, body.lang-ne #splash *, body.lang-ne #tour *, body.lang-ne #lightbox *,
+body.lang-ne .leaflet-tooltip, body.lang-ne .settlement-label {
+  font-family: inherit; letter-spacing: normal !important; text-transform: none;
+}
+body.lang-ne #splash .splash-title, body.lang-ne #sidebar .sidebar-logo, body.lang-ne #sidebar .analysis-title,
+body.lang-ne #sidebar .detail-tole, body.lang-ne #tour .tour-title, body.lang-ne #splash .stat-num {
+  font-family: 'Noto Serif Devanagari', 'Playfair Display', serif;
+}
+body.lang-ne #sidebar code, body.lang-ne #sidebar .mono { font-family: 'DM Mono', monospace; }
+body.lang-ne .dg-label, body.lang-ne .flt-label, body.lang-ne .detail-section-title { font-size: 0.78rem; }
+
+/* Settlement labels on the map */
+.settlement-label {
+  font-family: 'DM Mono', monospace; font-size: 10px; font-weight: 500;
+  color: #1a1208; background: rgba(245, 240, 232, 0.88);
+  padding: 2px 6px; border-radius: 2px; white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+body.lang-ne .settlement-label { font-size: 12px; }
+.dg-val.mono { font-family: 'DM Mono', monospace; font-size: 0.85rem; }
+
+/* ── OPEN DATA ──────────────────────────────────────────────── */
+.downloads { margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid rgba(240, 249, 255, 0.08); scroll-margin-top: 1rem; }
+.dl-intro { font-size: 0.84rem; line-height: 1.55; color: var(--text-secondary); margin: 0.3rem 0 0.8rem; }
+.dl-intro a, .info-card a { color: var(--water); }
+.dl-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; }
+.dl-link {
+  display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+  min-height: 40px; padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(240, 249, 255, 0.12); border-radius: var(--radius);
+  color: var(--text-primary); text-decoration: none; font-size: 0.84rem;
+}
+.dl-link::after { content: '↓'; color: var(--water); }
+.dl-link:hover, .dl-link:focus-visible { border-color: var(--water); background: rgba(94, 234, 212, 0.08); }
+.dl-link.primary { border-color: rgba(94, 234, 212, 0.5); background: rgba(94, 234, 212, 0.1); font-weight: 500; }
+.dl-size { margin-left: auto; color: var(--text-secondary); font-size: 0.75rem; font-weight: 400; }
+.dl-cite { margin-top: 0.9rem; }
+.dl-cite p { font-size: 0.78rem; line-height: 1.5; color: var(--text-secondary); margin-top: 0.3rem; word-break: break-word; }
+.dl-note { font-size: 0.75rem; color: var(--ink-faint); font-style: italic; margin-top: 0.6rem; }
+
+/* ── STUDY panel: the report's main points and key diagrams ── */
+.study-report { margin: 0.2rem 0 0.4rem; }
+.study-points { margin: 0.3rem 0 0.6rem; padding-left: 1.3rem; display: grid; gap: 0.75rem; }
+.study-points li { font-size: 0.84rem; line-height: 1.6; color: var(--ink-soft); padding-left: 0.2rem; }
+.study-points li::marker { color: var(--gold); font-family: 'DM Mono', monospace; font-size: 0.78rem; }
+.study-points strong { color: var(--ink); }
+.study-refs { white-space: nowrap; }
+.study-figlink {
+  font: inherit; font-size: 0.74rem; font-family: 'DM Mono', monospace;
+  color: var(--water); background: rgba(94, 234, 212, 0.08);
+  border: 1px solid rgba(94, 234, 212, 0.35); border-radius: 999px;
+  padding: 0.05rem 0.55rem; margin-left: 0.15rem; cursor: pointer;
+}
+.study-figlink:hover, .study-figlink:focus-visible { background: rgba(94, 234, 212, 0.18); border-color: var(--water); }
+.study-figures { display: grid; gap: 1rem; }
+.study-fig { margin: 0; }
+.study-fig-img {
+  display: block; width: 100%; padding: 0; cursor: zoom-in;
+  background: #fff; border: 1px solid rgba(240, 249, 255, 0.12); border-radius: var(--radius);
+  overflow: hidden; transition: border-color 0.15s, transform 0.15s;
+}
+.study-fig-img:hover, .study-fig-img:focus-visible { border-color: var(--water); }
+.study-fig-img img { display: block; width: 100%; height: auto; max-height: 340px; object-fit: contain; }
+.study-fig figcaption { font-size: 0.8rem; line-height: 1.5; color: var(--ink-soft); margin-top: 0.45rem; }
+.study-fig figcaption strong { color: var(--ink); }
+.study-fig-num { font-family: 'DM Mono', monospace; font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+#lightbox img[src^="figures/"] { background: #fff; }
